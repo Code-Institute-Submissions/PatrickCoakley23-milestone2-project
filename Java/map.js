@@ -14,34 +14,44 @@ function initMap() {
 
   var request = {
     location: cork,
-    radius: "500",
-    query: "restaurant",
+    radius: 20000,
+    types: ["cafe"]
   };
+  infowindow = new google.maps.InfoWindow();
 
-  service = new google.maps.places.PlacesService(map);
+  var service = new google.maps.places.PlacesService(map);
+  service.nearbySearch(request, callback);
+}
 
-  service.findPlaceFromQuery(request, function (results, status) {
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      for (var i = 0; i < results.length; i++) {
-        createMarker(results[i]);
-      }
-
-      map.setCenter(results[0].geometry.location);
+function callback(results, status) {
+  if (status == google.maps.places.PlacesServiceStatus.OK) {
+    for (var i = 0; i < results.length; i++) {
+      createMarker(results[i]);
     }
-  });
+  }
 }
 
 function createMarker(place) {
-  var marker = new google.maps.Marker({
-    map: map,
-    position: place.geometry.location,
-  });
+    var placeLoc = place.geometry.location;
+    var marker = new google.maps.Marker({
+        map: map,
+        position: place.geometry.location
+    });
+    google.maps.event.addListener(marker, "click", function() 
+    {
+        infowindow.setContent(`<div> <strong>${place.name} </strong> <br>
+        ${place.vicinity} <br>
+        Rating:${place.rating} <br>
+        ${place.types[0]} <br>
+        <a href="https://www.google.com/maps/place/?q=place_id:${place.place_id}" target="_blank">View on Google Maps</a></div>`) ;
+        infowindow.open(map, this);
 
-  google.maps.event.addListener(marker, "click", function () {
-    infowindow.setContent(place.name);
-    infowindow.open(map, this);
-  });
+        
+
+    });
+
 }
+
 
 /* function initMap() {
 

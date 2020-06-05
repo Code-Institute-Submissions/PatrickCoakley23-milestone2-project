@@ -52,33 +52,30 @@ function createMarker(place) {
 
 }
 
+$(function() {
 
-/* function initMap() {
+    $('.tab-panels .tabs li').on('click', function() {
 
-        var map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 10,
-          center: {lat: 51.903614, -8.468399}
-          });
+        var $panel = $(this).closest('.tab-panels');
+
+        $panel.find('.tabs li.active').removeClass('active');
+        $(this).addClass('active');
+
+        //figure out which panel to show
+        var panelToShow = $(this).attr('rel');
+
+        //hide current panel
+        $panel.find('.panel.active').slideUp(300, showNextPanel);
+
+        //show next panel
+        function showNextPanel() {
+            $(this).removeClass('active');
+
+            $('#'+panelToShow).slideDown(300, function() {
+                $(this).addClass('active');
+            });
         }
-
-        */
-
-/*
-          var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-
-           var markers = locations.map(function(location, i) {
-          return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
-        });
     });
-            var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-        }
-    var locations = [
-        {lat: 51.929091, lng: -8.570564},
-        {lat: 51.838163314, lng: -8.487998048},
-        {lat: 51.893497, lng:-8.491873},
-    ]
 
-    */
+
+});

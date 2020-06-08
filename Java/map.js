@@ -12,10 +12,15 @@ function initMap() {
     zoom: 15,
   });
 
+var type =  $(".list-group-item").click(function(){
+
+ $(this).attr("rel");
+});
+
   var request = {
     location: cork,
     radius: 20000,
-    types: ["cafe"]
+    types: [""] 
   };
   infowindow = new google.maps.InfoWindow();
 

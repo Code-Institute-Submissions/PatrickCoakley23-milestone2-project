@@ -9,7 +9,7 @@ $( document ).ready(function() {
         $(this).addClass("active");
      
         // using the rel attribute, we can use it to link it to the <div id="#">
-       var panelToShow = $(this).attr("rel");
+       var panelToShow = $(this).attr("data-val");
        
         //what ever location eg(hotel, bar etc) is active, slide it up
        $panel.find(".locations.active").slideUp(300, showNextPanel);

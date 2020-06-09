@@ -1,11 +1,11 @@
 $( document ).ready(function() {
 
-    $(".tab-panels .tabs li").click(function(){
+    $(".tab-panels .list-group-horizontal li").click(function(){
 
         var $panel = $(this).closest(".tab-panels");
         
         //Removes the previous active tab and adds it to the one clicked
-        $panel.find(".tabs li.active").removeClass("active");
+        $panel.find(".list-group-horizontal li.active").removeClass("active");
         $(this).addClass("active");
      
         // using the rel attribute, we can use it to link it to the <div id="#">

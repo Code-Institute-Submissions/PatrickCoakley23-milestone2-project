@@ -13,13 +13,14 @@ $.ajax(settings).done(function (response) {
   var totalDeaths = response.Countries[80].TotalDeaths;
   var totalRecovered = response.Countries[80].TotalRecovered;
   var date = response.Countries[80].Date;
+  console.log(date);
 
   $covidData.append(`<li>Country : ${country}</li>
                     <li>New Confirmed Cases: ${cases}</li>
                     <li>New Deaths: ${newDeaths}</li>
                     <li>Total Deaths: ${totalDeaths}</li>
                     <li>Total Recovered: ${totalRecovered}</li>
-                    <li>Date & Time GMT+0: ${date}</li>
+                    <li>Last Updated (GMT+0): ${date}</li>
                     `)
                     
 

@@ -1,188 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-      <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-      <title>Document</title>
-   </head>
-   <body>
-      <div class="container-fluid map-container">
-         <div class="row">
-            <div class="col-6" id="map">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid map-container">
+      <div class="row">
+        <div class="col-6" id="map"></div>
+        <div class="col-6">
+          <div class="tab-panels">
+            <ul class="list-group list-group-horizontal">
+              <li data-val="lodging" class="active list-group-item">Hotels</li>
+              <li data-val="bar" class="list-group-item">Bars</li>
+              <li data-val="restaurant" class="list-group-item">Restaurants</li>
+              <li data-val="tourist_attraction" class="list-group-item">
+                Tourist Attractions
+              </li>
+            </ul>
+            <div id="lodging" class="locations active">
+              <div class="row">
+                <div class="col-6">
+                  <a href="#river-lee" class="btn" data-toggle="collapse">
+                    <h5>The River Lee Hotel</h5>
+                    <img src="assets/images/river-lee-hotel.jpg" alt="" />
+                  </a>
+                  <div id="river-lee" class="collapse">
+                    <p>
+                      Located on the banks of the River Lee this stunning hotel
+                      is ideally located only a 5 min walk from town centre and
+                      directly across the road from the entrance to UCC. The
+                      River Club Bar, Terrace and The Grill room is an exciting
+                      addition to the Cork food and drinks scene. With glamorous
+                      décor and a relaxed atmosphere, it is the perfect place to
+                      eat, drink and be social.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <a href="#the-imperial" class="btn" data-toggle="collapse">
+                    <h5>The Imperial Hotel</h5>
+                    <img src="assets/images/the-imperial.jpg" alt="" />
+                  </a>
+                  <div id="the-imperial" class="collapse">
+                    <p>
+                      Located in the very heart of Cork city, The Imperial Hotel
+                      is less than a minute’s walk from Cork’s main shopping
+                      district restaurants and nightlife. In the Pembroke
+                      Restaurant, a high standard of Irish cuisine is created
+                      each evening using fresh fish, meat and vegetables from
+                      the local market.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <a href="#clayton" class="btn" data-toggle="collapse">
+                    <h5>The Clayton Hotel</h5>
+                    <img src="assets/images/the-clayton.jpg" alt="" />
+                  </a>
+                  <div id="clayton" class="collapse">
+                    <p>
+                      Facing Cork City Hall, the Clayton Hotel Cork overlooks
+                      the River Lee. ClubVitae Health & Fitness Club and Essence
+                      Spa has fantastic facilities including a gym, sauna and
+                      steam room. This hotel is located in the newly revived
+                      dockland area and is the perfect location for visitors
+                      looking for a city break in Cork City.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <a href="#hayfield-manor" class="btn" data-toggle="collapse">
+                    <h5>The Hayfield Manor</h5>
+                    <img src="assets/images/hayfield-manor.jpg" alt="" />
+                  </a>
+                  <div id="hayfield-manor" class="collapse">
+                    <p>
+                      For people looking for the more high end 5 star hotel then
+                      look no further than the Hayfield Manor. Located alongside
+                      the historic University College Cork, Hayfield Manor is
+                      set on a backdrop of two-acre of beautiful mature gardens
+                      and is just a 15 minutes’ walk from Cork centre. The hotel
+                      offers two award-winning and distinctive restaurants:
+                      Orchids Restaurant specializes in fine Irish cuisine and
+                      the vibrant Perrotts Bistro features Mediterranean and
+                      worldwide specialties.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-6">
-               <div class="tab-panels">
-                  <ul class="list-group list-group-horizontal">
-                     <li data-val="lodging" class="active list-group-item">Hotels</li>
-                     <li data-val="bar" class="list-group-item">Bars</li>
-                     <li data-val="restaurant" class="list-group-item">Restaurants</li>
-                     <li data-val="tourist_attraction" class="list-group-item">Tourist Attractions</li>
-                  </ul>
-                  <div id="lodging" class="locations active">
-                     <div class="row">
-                        <div class="col-6">
-                           <a href="#river-lee" class="btn" data-toggle="collapse">
-                           <h5>The River Lee Hotel</h5>
-                           <img src="assets/images/river-lee-hotel.jpg" alt="">
-                           </a>
-							<div id="river-lee" class="collapse">
-							<p>Located on the banks of the River Lee this stunning hotel is ideally located only a 5 min walk from town centre and
-								directly across the road from the entrance to UCC.
-								The River Club Bar, Terrace and The Grill room is an exciting addition to the Cork food and drinks scene. With
-								glamorous décor and a relaxed atmosphere, it is the perfect place to eat, drink and be social.
-							</p>
-							</div>
-                        </div>
-                        <div class="col-6">
-                            <a href="#the-imperial" class="btn" data-toggle="collapse">
-                           <h5>The Imperial Hotel</h5>
-                           <img src="assets/images/the-imperial.jpg" alt="">
-                           </a>
-							<div id="the-imperial" class="collapse">
-							<p>Located in the very heart of Cork city, The Imperial Hotel is less than a minute’s walk from Cork’s main shopping
-							district restaurants and nightlife.
-							In the Pembroke Restaurant, a high standard of Irish cuisine is created each evening using fresh fish, meat and
-							vegetables from the local market.
-							</p>
-							</div>
-                        </div>
-                        <div class="col-6">
-                              <a href="#clayton" class="btn" data-toggle="collapse">
-                           <h5>The Clayton Hotel</h5>
-                           <img src="assets/images/the-clayton.jpg" alt="">
-                           </a>
-							<div id="clayton" class="collapse">
-							<p>Facing Cork City Hall, the Clayton Hotel Cork overlooks the River Lee.
-								ClubVitae Health & Fitness Club and Essence Spa has fantastic facilities including a gym, sauna and steam room.
-								This hotel is located in the newly revived dockland area and is the perfect location for visitors looking for a city
-								break in Cork City.
-							</p>
-							</div> 
-                        </div>
-                        <div class="col-6">
-                               <a href="#hayfield-manor" class="btn" data-toggle="collapse">
-                           <h5>The Hayfield Manor</h5>
-                           <img src="assets/images/hayfield-manor.jpg" alt="">
-                           </a>
-							<div id="hayfield-manor" class="collapse">
-							<p>For people looking for the more high end 5 star hotel then look no further than the Hayfield Manor.
-							Located alongside the historic University College Cork, Hayfield Manor is set on a backdrop of two-acre of beautiful
-							mature gardens and is just a 15 minutes’ walk from Cork centre.
-							The hotel offers two award-winning and distinctive restaurants: Orchids Restaurant specializes in fine Irish cuisine and
-							the vibrant Perrotts Bistro features Mediterranean and worldwide specialties.
-							</p>
-							</div> 
-                        </div>
-                     </div>
+
+            <div id="bar" class="locations">
+              <div class="row">
+                <div class="col-6">
+                  <a href="#oval" class="btn" data-toggle="collapse">
+                    <h5>The Oval</h5>
+                    <img src="assets/images/the-oval.jpg" alt="" />
+                  </a>
+                  <div id="oval" class="collapse">
+                    <p>
+                      Built by Beamish and Crawford whose historic brewery was
+                      situated across the road. Named after its unique oval
+                      shaped ceiling, the Oval bar is the spot for an intimate
+                      cosy drink. This pub is full of old world style and
+                      character which is its main attraction.
+                    </p>
                   </div>
-                            
-                            <div id="bar" class="locations">
-                                <div class="row">
+                </div>
 
-
-                        <div class="col-6">
-                           <a href="#oval" class="btn" data-toggle="collapse">
-                           <h5>The Oval</h5>
-                           <img src="assets/images/the-oval.jpg" alt="">
-                           </a>
-							<div id="oval" class="collapse">
-							<p>Built by Beamish and Crawford whose historic brewery was situated across the road. Named after its unique oval shaped
-							ceiling, the Oval bar is the spot for an intimate cosy drink. This pub is full of old world style and character which is
-							its main attraction.</p>
-							</div>
-                        </div>
-
-                        <div class="col-6">
-                            <a href="#mutton-lane" class="btn" data-toggle="collapse">
-                           <h5>Mutton Lane</h5>
-                           <img src="assets/images/mutton-lane.jpg" alt="">
-                           </a>
-							<div id="mutton-lane" class="collapse">
-							<p>Mutton Lane is one of many alleyways that lead into the famed English Market. Sip away on your drink whilst appriacting the mural running the length of the lane entering
-							the pub, which tell the stories of old cork tales.
-                            During the Irish civil war, This long, narrow bar was divided right down the middle between pro Treaty and anti Treaty forces during this time
-							but the peace was held whilst in the establishment.</p>
-							</div>
-                        </div>
-
-                        <div class="col-6">
-                           <a href="#tom-barrys" class="btn" data-toggle="collapse">
-                           <h5>Tom Barrys</h5>
-                           <img src="assets/images/tom-barrys.jpg" alt="">
-                           </a>
-							<div id="tom-barrys" class="collapse">
-							<p>Located only a stones throw away from the Historic Elizabeth Fort and the picturesque Saint Fin Barre's Cathedral lies
-							Tom Barry's, a traditional irish pub with a bohemian vibe. The beer garden out the back is the main attraction, with
-							nice nic nacs and beautifully arranged flowers. Whilst you are right on the edge of the city, you could feel like you
-							are sitting out the back of an old country pub. Their pizza is also regarded as one of the best in Cork.</p>
-							</div>
-                        </div>
-                        
-                        <div class="col-6">
-                          <a href="#the-hawthorn" class="btn" data-toggle="collapse">
-                           <h5>The Hawthorn</h5>
-                           <img src="assets/images/hawthorn.jpg" alt="">
-                           </a>
-							<div id="the-hawthorn" class="collapse">
-							<p>Located beside the Lough, on the outskirts of the city. Arguably corks most scenic pubs, you can enjoy a tipple of your
-							choice whilst looking at the vaious bird life the Lough has to offer.</p>
-							</div>
-                        </div>
-
-                     </div>
+                <div class="col-6">
+                  <a href="#mutton-lane" class="btn" data-toggle="collapse">
+                    <h5>Mutton Lane</h5>
+                    <img src="assets/images/mutton-lane.jpg" alt="" />
+                  </a>
+                  <div id="mutton-lane" class="collapse">
+                    <p>
+                      Mutton Lane is one of many alleyways that lead into the
+                      famed English Market. Sip away on your drink whilst
+                      appriacting the mural running the length of the lane
+                      entering the pub, which tell the stories of old cork
+                      tales. During the Irish civil war, This long, narrow bar
+                      was divided right down the middle between pro Treaty and
+                      anti Treaty forces during this time but the peace was held
+                      whilst in the establishment.
+                    </p>
                   </div>
-                  <div id="restaurant" class="locations">
-                     <div class="row">
-                        <div class="col-6">
-                           content1
-                        </div>
-                        <div class="col-6">
-                           content1
-                        </div>
-                        <div class="col-6">
-                           content1
-                        </div>
-                        <div class="col-6">
-                           content1
-                        </div>
-                     </div>
+                </div>
+
+                <div class="col-6">
+                  <a href="#tom-barrys" class="btn" data-toggle="collapse">
+                    <h5>Tom Barrys</h5>
+                    <img src="assets/images/tom-barrys.jpg" alt="" />
+                  </a>
+                  <div id="tom-barrys" class="collapse">
+                    <p>
+                      Located only a stones throw away from the Historic
+                      Elizabeth Fort and the picturesque Saint Fin Barre's
+                      Cathedral lies Tom Barry's, a traditional irish pub with a
+                      bohemian vibe. The beer garden out the back is the main
+                      attraction, with nice nic nacs and beautifully arranged
+                      flowers. Whilst you are right on the edge of the city, you
+                      could feel like you are sitting out the back of an old
+                      country pub. Their pizza is also regarded as one of the
+                      best in Cork.
+                    </p>
                   </div>
-                  <div id="tourist_attraction" class="locations">
-                     <div class="row">
-                        <div class="col-6">
-                           content1
-                        </div>
-                        <div class="col-6">
-                           content1
-                        </div>
-                        <div class="col-6">
-                           content1
-                        </div>
-                        <div class="col-6">
-                           content1
-                        </div>
-                     </div>
+                </div>
+
+                <div class="col-6">
+                  <a href="#the-hawthorn" class="btn" data-toggle="collapse">
+                    <h5>The Hawthorn</h5>
+                    <img src="assets/images/hawthorn.jpg" alt="" />
+                  </a>
+                  <div id="the-hawthorn" class="collapse">
+                    <p>
+                      Located beside the Lough, on the outskirts of the city.
+                      Arguably corks most scenic pubs, you can enjoy a tipple of
+                      your choice whilst looking at the vaious bird life the
+                      Lough has to offer.
+                    </p>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+            <div id="restaurant" class="locations">
+              <div class="row">
+                <div class="col-6">
+                  <a href="#farmgate" class="btn" data-toggle="collapse">
+                    <h5>The Farmgate Cafe</h5>
+                    <img src="assets/images/the-farmgate.jpg" alt="" />
+                  </a>
+                  <div id="farmgate" class="collapse">
+                    <p>
+                      If you are looking for a taste of pure Cork then the
+                      Farmgate Café is your spot. Located on the first floor of
+                      the English market, dine out for lunch whilst overlooking
+                      the iconic fountain and the endless number of traders and
+                      shoppers below. The Farmgate Café produces a simple and
+                      strong regional menu made with fresh ingredients every
+                      day. All the meat and fish served is sourced within the
+                      Market downstairs. If you have a curious palette, every
+                      second Tuesday the Farmgate serves tripe and drisheen, an
+                      old cork delicacy
+                    </p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <a href="#il-padrino" class="btn" data-toggle="collapse">
+                    <h5>Il Padrino</h5>
+                    <img src="assets/images/il-padrinos.jpg" alt="" />
+                  </a>
+                  <div id="il-padrino" class="collapse">
+                    <p>
+                      Charming little Italian restaurant on Princes Street in
+                      the city centre. The staff are always very friendly and
+                      efficient. The atmosphere created in the restaurant will
+                      make you believe you are in Italy itself. Don’t be
+                      surprised if you leave the restaurant feeling you are
+                      after eating the best pasta dish In your life.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <a href="#son-of-a-bun" class="btn" data-toggle="collapse">
+                    <h5>Son of a Bun</h5>
+                    <img src="assets/images/son-of-a-bun.jpg" alt="" />
+                  </a>
+                  <div id="son-of-a-bun" class="collapse">
+                    <p>
+                      The company’s vision is To serve the best burgers
+                      possible, the burgers we had dreams about! Son of a Bun
+                      won best burger in Cork at the first ever burger festival
+                      in 2017 and then best burger in the whole of Ireland when
+                      the festival went nationwide in 2018. Watch out for their
+                      ‘Burger of the Month’ which are exclusively sold for one
+                      month only, and has customers returning in anticipation of
+                      what’s on the menu for the coming month.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <a href="#quinlans" class="btn" data-toggle="collapse">
+                    <h5>Il Padrino</h5>
+                    <img src="assets/images/quinlans.jpg" alt="" />
+                  </a>
+                  <div id="quinlans" class="collapse">
+                    <p>
+                      Quinlan's Seafood Bar in Cork City offers superbly fresh
+                      fish from the Cork and Kerry coasts. The freshness of
+                      their fish is unrivalled being delivered daily direct from
+                      our boats to the heart of Cork city every day. The
+                      portions of the fish & fresh cut chips are generous so you
+                      won’t be leaving hungry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="tourist_attraction" class="locations">
+              <div class="row">
+                <div class="col-6">
+                  content1
+                </div>
+                <div class="col-6">
+                  content1
+                </div>
+                <div class="col-6">
+                  content1
+                </div>
+                <div class="col-6">
+                  content1
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="container-fluid covid-container">
-         <div class="row">
-            <div class="col">
-               <ul id="covid-data"></ul>
-            </div>
-         </div>
+    </div>
+    <div class="container-fluid covid-container">
+      <div class="row">
+        <div class="col">
+          <ul id="covid-data"></ul>
+        </div>
       </div>
-      .
-      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjgNxrMZFjTSQfvfD6TVc9FLHoxbbsMOk&libraries=places&callback=initMap" async defer></script> 
-      <script src="javascript/jquery.js" type="text/javascript"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-      <script src="javascript/tab-panel.js" type="text/javascript"></script>
-      <script src="javascript/map.js" type="text/javascript"></script>
-      <script src="javascript/covid.js" type="text/javascript"></script>
-   </body>
+    </div>
+    .
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjgNxrMZFjTSQfvfD6TVc9FLHoxbbsMOk&libraries=places&callback=initMap"
+      async
+      defer
+    ></script>
+    <script src="javascript/jquery.js" type="text/javascript"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript/tab-panel.js" type="text/javascript"></script>
+    <script src="javascript/map.js" type="text/javascript"></script>
+    <script src="javascript/covid.js" type="text/javascript"></script>
+  </body>
 </html>

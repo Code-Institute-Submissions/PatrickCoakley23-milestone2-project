@@ -12,14 +12,14 @@ function initMap() {
 
   map = new google.maps.Map(document.getElementById("map"), {
     center: cork,
-    zoom: 15,
+    zoom: 14,
   });
 
   /// event listener to catch the placeType search when a new tab is selected
   var request = {
     location: cork,
-    radius: 20000,
-    types: ["cafe"]
+    radius: 30000,
+    types: ["lodging"]
   };
   infowindow = new google.maps.InfoWindow();
 
@@ -64,7 +64,6 @@ $(".list-group-item").click(function(){
  initialize(placeType);
 });
 
-
  function initialize(placeType) {
   var cork = new google.maps.LatLng(51.903614, -8.468399);
 
@@ -72,7 +71,7 @@ $(".list-group-item").click(function(){
 
   map = new google.maps.Map(document.getElementById("map"), {
     center: cork,
-    zoom: 15,
+    zoom: 14,
   });
 
   
@@ -82,7 +81,7 @@ $(".list-group-item").click(function(){
 
   var request = {
     location: cork,
-    radius: 20000,
+    radius: 30000,
     types: [""+placeType]
   };
   infowindow = new google.maps.InfoWindow();

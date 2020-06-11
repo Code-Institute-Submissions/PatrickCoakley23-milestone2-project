@@ -9,6 +9,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Document</title>
   </head>
@@ -16,14 +17,25 @@
     <div class="container-fluid map-container">
       <div class="row">
         <div class="col-6" id="map"></div>
-        <div class="col-6">
+        
+        <div class="col-6 tab-column">
           <div class="tab-panels">
             <ul class="list-group list-group-horizontal">
-              <li data-val="lodging" class="active list-group-item">Hotels</li>
-              <li data-val="bar" class="list-group-item">Bars</li>
-              <li data-val="restaurant" class="list-group-item">Restaurants</li>
+              <li data-val="lodging" class="active list-group-item">
+                <i class="fas fa-hotel"></i>
+                <h5>Hotels</h5>
+            
+              <li data-val="bar" class="list-group-item">  
+                <i class="fas fa-glass-martini-alt"></i>
+                <h5>Bars</h5>
+              </li>
+              <li data-val="restaurant" class="list-group-item">
+                <i class="fas fa-utensils"></i>
+                <h5>Restaurants</h5>
+              </li>
               <li data-val="tourist_attraction" class="list-group-item">
-                Tourist Attractions
+                <i class="fas fa-info"></i>
+                <h5>Tourist Attractions</h5>
               </li>
             </ul>
             <div id="lodging" class="locations active">
@@ -266,7 +278,7 @@
                 </div>
                 <div class="col-6">
                   <a href="#shandon" class="btn" data-toggle="collapse">
-                    <h5>Shandon Bells & Tower</h5>
+                    <h5>Shandon Bells</h5>
                     <img src="assets/images/shandon-bells.jpg" alt="" />
                   </a>
                   <div id="shandon" class="collapse">

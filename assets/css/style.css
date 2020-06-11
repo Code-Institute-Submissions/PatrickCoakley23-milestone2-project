@@ -1,3 +1,5 @@
+/*-- MAP SECTION--*/ 
+
 #map {
    min-height: 360px;
    width: 50%;
@@ -21,13 +23,13 @@
 */
 
 .tab-panels ul li.active {
-    color: #ec3547fc;
+    color: #ec3535ed;
     background: #ffffff;
 }
 
 .tab-panels .locations {
     display:none;
-    background: #ec3547fc;
+    background: #ec3535ed;
     padding: 30px;
 }
 
@@ -70,4 +72,16 @@
 
 .list-group-item h5 {
   font-size: smaller;
+}
+
+@media screen and (max-width: 768px) {
+.tab-column  {
+    padding-right: 0;
+    padding-left: 0;
+    margin: 20px 0;
+    }
+
+.locations a img {
+    width: 168px
+}
 }

@@ -82,7 +82,7 @@
     padding-left: 0;
     margin: 20px 0;
     }
-
+    
 .locations a img {
     width: 168px
 }
@@ -146,3 +146,17 @@ padding: inherit;
 }
 
 */
+
+.table td, .table th {
+    padding: .30rem;
+}
+
+@media screen and (max-width: 768px) {
+ .table td, .table th {
+    padding: 0 0 0 1rem;
+ }
+}
+
+#covid-poster {
+    width: 100%;
+}

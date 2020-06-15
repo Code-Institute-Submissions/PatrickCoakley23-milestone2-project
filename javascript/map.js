@@ -12,7 +12,7 @@ function initMap() {
 
   map = new google.maps.Map(document.getElementById("map"), {
     center: cork,
-    zoom: 14,
+    zoom: 11,
   });
 
   /// event listener to catch the placeType search when a new tab is selected
@@ -71,7 +71,7 @@ $(".list-group-item").click(function(){
 
   map = new google.maps.Map(document.getElementById("map"), {
     center: cork,
-    zoom: 14,
+    zoom: 11,
   });
 
   

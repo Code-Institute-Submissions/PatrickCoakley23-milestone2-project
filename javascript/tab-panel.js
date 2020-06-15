@@ -22,12 +22,7 @@ $( document ).ready(function() {
            $(this).addClass("active");
            });
     }
-    });
-
-    setInterval(function() {
-        $("#hero-image-slider .hero-slides").animate({"margin-left": "-=1000px"},1000);
-
-    }, 5000);
+    });    
 
 
     

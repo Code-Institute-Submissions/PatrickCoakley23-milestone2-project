@@ -19,7 +19,8 @@ function initMap() {
   var request = {
     location: cork,
     radius: 30000,
-    types: ["lodging"]
+    types: ["lodging"],
+    fields: ['name', 'formatted_addres', 'photo', 'url', 'formatted_phone_number', 'price_level', 'rating', 'review', 'website']
   };
   infowindow = new google.maps.InfoWindow();
 
@@ -43,11 +44,16 @@ function createMarker(place) {
     });
     google.maps.event.addListener(marker, "click", function() 
     {
-        infowindow.setContent(`<div> <strong>${place.name} </strong> <br>
-        ${place.vicinity} <br>
-        Rating:${place.rating} <br>
-        ${place.types[0]} <br>
-        <a href="https://www.google.com/maps/place/?q=place_id:${place.place_id}" target="_blank">View on Google Maps</a></div>`) ;
+        console.log(place)
+        infowindow.setContent(`<div>
+        <img src="${place.photos[0].getUrl({'maxWidth': 200, 'maxHeight': 200})}" alt=""><br>
+        <strong>${place.name}</strong><br>
+        <strong>Rating:</strong> ${place.rating}<br>
+         ${place.vicinity}<br>
+         ${place.types[0]}<br>
+        <a href="https://www.google.com/maps/place/?q=place_id:${place.place_id}" target="_blank">View on Google Maps</a> 
+         </div> `) ;
+
         infowindow.open(map, this);
 
         
@@ -106,12 +112,18 @@ function createMarker(place) {
     });
     google.maps.event.addListener(marker, "click", function() 
     {
-        infowindow.setContent(`<div> <strong>${place.name} </strong> <br>
-        ${place.vicinity} <br>
-        Rating:${place.rating} <br>
-        ${place.types[0]} <br>
-        <a href="https://www.google.com/maps/place/?q=place_id:${place.place_id}" target="_blank">View on Google Maps</a></div>`) ;
+        infowindow.setContent(`<div>
+        <img src="${place.photos[0].getUrl({'maxWidth': 200, 'maxHeight': 200})}" alt=""><br>
+        <strong>${place.name}</strong><br>
+        <strong>Rating:</strong> ${place.rating}<br>
+         ${place.vicinity}<br>
+         ${place.types[0]}<br>
+        <a href="https://www.google.com/maps/place/?q=place_id:${place.place_id}" target="_blank">View on Google Maps</a> 
+         </div> `
+        
+        ) ;
         infowindow.open(map, this);
+
 
         
 

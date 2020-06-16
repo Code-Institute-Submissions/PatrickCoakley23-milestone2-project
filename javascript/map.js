@@ -23,7 +23,7 @@ function initMap() {
     fields: ['name', 'formatted_addres', 'photo', 'url', 'formatted_phone_number', 'price_level', 'rating', 'review', 'website']
   };
   infowindow = new google.maps.InfoWindow();
-
+ 
   var service = new google.maps.places.PlacesService(map);
   service.nearbySearch(request, callback);
 }
@@ -46,7 +46,7 @@ function createMarker(place) {
     {
         console.log(place)
         infowindow.setContent(`<div>
-        <img src="${place.photos[0].getUrl({'maxWidth': 200, 'maxHeight': 200})}" alt=""><br>
+        <img src="${place.photos[0].getUrl({'maxWidth': 200, 'maxHeight': 140})}" alt=""><br>
         <strong>${place.name}</strong><br>
         <strong>Rating:</strong> ${place.rating}<br>
          ${place.vicinity}<br>
@@ -113,7 +113,7 @@ function createMarker(place) {
     google.maps.event.addListener(marker, "click", function() 
     {
         infowindow.setContent(`<div>
-        <img src="${place.photos[0].getUrl({'maxWidth': 200, 'maxHeight': 200})}" alt=""><br>
+        <img src="${place.photos[0].getUrl({'maxWidth': 200, 'maxHeight': 140})}" alt=""><br>
         <strong>${place.name}</strong><br>
         <strong>Rating:</strong> ${place.rating}<br>
          ${place.vicinity}<br>

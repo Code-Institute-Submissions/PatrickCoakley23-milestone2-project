@@ -4,6 +4,28 @@
     margin-bottom: 50px;
 }
 
+/*-- NAVBAR --*/
+
+header {
+  position: sticky;
+  z-index: 1;
+  background-color: white;
+  top: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  
+}
+.navbar-container {
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
 /*-- HERO IMAGE --*/
 
 .hero-container{
@@ -19,6 +41,15 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    background-image: none;
+}
+
+.carousel-indicators .active {
+    background-color: #edbb00;
+    border: #edbb00;
 }
 
 

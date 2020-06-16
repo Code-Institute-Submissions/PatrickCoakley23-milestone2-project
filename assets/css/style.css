@@ -1,21 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: 
+}
+
+
 .page-headings {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 50px;
 }
 
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
 /*-- NAVBAR --*/
 
 header {
   position: sticky;
   z-index: 1;
-  background-color: white;
+  background-color: #9D1821;
   top: 0;
+  width: 100%;
 }
 
 .navbar {
   margin-bottom: 0;
   border: 0;
+  
   
 }
 .navbar-container {
@@ -25,6 +49,20 @@ header {
   padding-right: 0;
 }
 
+.navbar-nav .nav-link {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar-brand {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav .active {
+  color: #111;
+}
 
 /*-- HERO IMAGE --*/
 
@@ -222,4 +260,16 @@ padding: inherit;
 
 #covid-poster {
     width: 100%;
+}
+
+/*--FOOTER--*/
+
+.image-logo {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: #9D1821;
+    color: white;
 }

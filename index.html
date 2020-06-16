@@ -19,13 +19,13 @@
       <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
       <title>Document</title>
    </head>
-   <body>
+<body>
         <header>
 
-            <div class="container-fluid navbar-container">
-                <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid navbar-container no-gutters">
+                <nav class="navbar navbar-transparent navbar-expand-lg">
                     <!-- BRAND AND LOGO-->
-                    <a class="navbar-brand uppercase" href=""><img src="" alt="" width="50" height="50" /> Come To Cork</a>
+                    <a class="navbar-brand uppercase" href=""><img src="assets/images/dark_logo_transparent_background.png" alt="" width="120" height="75" /></a>
 
                     <!-- HAMBURGER MENU FOR SMALLER SCREEN WIDTHS-->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler1" aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +56,7 @@
 
 
 
-    <div class="container-fluid hero-container">
+    <div class="container-fluid hero-container no-gutters">
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
             <ol class="carousel-indicators">
@@ -601,7 +601,40 @@
             </div>
          </div>
       </div>
+ 
       
+      
+        <footer class="container-fluid no-gutters"> 
+        <div class="row">
+            <div class="col-sm-4"> 
+                <h5>Contact Info</h5>
+				<a
+			    href="https://www.google.com/maps/place/76+St+Patrick's+St,+Centre,+Cork,+T12+KW82/@51.8982977,-8.4761774,17z/data=!3m1!4b1!4m5!3m4!1s0x484490105e53456b:0xaded1e492f61bcec!8m2!3d51.8982977!4d-8.4739887" target="_blank">
+                 <i class="fas fa-map-marker-alt"></i> 76 St Patrick's Street <br>
+                Cork City <br>
+                T12 KW82 
+                </a>
+				</div>
+                
+
+            <div class="col-sm-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <div class="col-sm-4">
+            <h5>Our Partners</h5>
+                <img src="assets/images/failte-ireland.png" alt="" class="image-logo">
+                <img src="assets/images/wild-atlantic-way.png" alt="" class="image-logo">
+                <img src="assets/images/tripadvisor.png" alt="" class="image-logo">
+
+            
+            </div>
+      
+        </div>
+
+ </footer>
       <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
       <script
          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjgNxrMZFjTSQfvfD6TVc9FLHoxbbsMOk&libraries=places&callback=initMap"
@@ -621,5 +654,5 @@
       <script>
          AOS.init();
       </script>
-   </body>
-   </html>
+</body>
+</html>

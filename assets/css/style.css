@@ -8,11 +8,10 @@ body {
     font-family: 'Lora', serif;
 }
 
-a {
-    color: #fff;
-    text-decoration: 
+a:hover {
+    text-decoration: underline;
+    color: white;
 }
-
 
 .page-headings {
     text-transform: uppercase;
@@ -39,6 +38,7 @@ header {
 .navbar {
   margin-bottom: 0;
   border: 0;
+  padding: 0;
   
   
 }
@@ -52,6 +52,7 @@ header {
 .navbar-nav .nav-link {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
 }
 
 
@@ -62,6 +63,11 @@ header {
 
 .navbar-nav .active {
   color: #111;
+  
+}
+
+.logo-small {
+    padding-left: 1rem;
 }
 
 /*-- HERO IMAGE --*/
@@ -303,4 +309,52 @@ padding: inherit;
 footer {
     background-color: #9D1821;
     color: white;
+}
+
+footer a {
+    color: white
+}
+
+.social-links {
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+    padding: 1rem;
+}
+
+.social-links a i {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links  a:hover, a i:hover {
+    color: #fcff38;
+}
+
+.partners-links {
+    text-align: right;
+    padding: 1rem;
+}
+.partners-links a {
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.partners-links a:hover {
+     color: #fcff38;
+     text-decoration: none;
+}
+
+.contact-info {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+    .partners-links, .social-links, .contact-info  {
+        text-align: center;
+    }
 }

@@ -8,6 +8,10 @@ body {
     font-family: 'Lora', serif;
 }
 
+.red-text {
+    color: #9D1821;
+}
+
 a:hover {
     text-decoration: underline;
     color: white;
@@ -96,6 +100,14 @@ header {
     border: #edbb00;
 }
 
+.logo-cta {
+    height: 248px;
+    width: 248px;
+    position: absolute;   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /*-- WHY VISIT CORK SECTION */
 .why-cork-div {

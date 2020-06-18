@@ -17,13 +17,13 @@ $.ajax(settings).done(function (response) {
   var newDate = new Date(formatted)
   
 
-  $covidData.prepend(`<tr><td class="table-date-1"><strong>Country:</strong></td> <td>${country}</td></tr>
-                     <tr><td class="table-date-1"><strong>New Confirmed Cases:</strong></td> <td>${cases}</td></tr>
-                     <tr><td class="table-date-1"><strong>Confirmed Cases:</strong></td> <td>${totalCases}</td></tr>
-                     <tr><td class="table-date-1"><strong>Total Recovered:</strong></td> <td>${totalRecovered}</td></tr>
-                     <tr><td class="table-date-1"><strong>New Deaths:</strong></td> <td>${newDeaths}</td></tr>
-                     <tr><td class="table-date-1"><strong>Total Deaths:</strong></td> <td>${totalDeaths}</td></tr> 
-                     <tr><td class="table-date-1"><strong>Last Updated (GMT+0):</strong></td> <td>${newDate}</td></tr>
+  $covidData.prepend(`<tr><td class="table-data-1"><strong>Country:</strong></td> <td>${country}</td></tr>
+                     <tr><td class="table-data-1"><strong>New Confirmed Cases:</strong></td> <td>${cases}</td></tr>
+                     <tr><td class="table-data-1"><strong>Confirmed Cases:</strong></td> <td>${totalCases}</td></tr>
+                     <tr><td class="table-data-1"><strong>Total Recovered:</strong></td> <td>${totalRecovered}</td></tr>
+                     <tr><td class="table-data-1"><strong>New Deaths:</strong></td> <td>${newDeaths}</td></tr>
+                     <tr><td class="table-data-1"><strong>Total Deaths:</strong></td> <td>${totalDeaths}</td></tr> 
+                     <tr><td class="table-data-1"><strong>Last Updated (GMT+0):</strong></td> <td>${newDate}</td></tr>
                     `)
                     
 });

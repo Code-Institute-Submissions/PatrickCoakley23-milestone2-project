@@ -18,7 +18,7 @@ The key goals for Come to Cork are:
 
 2. Allow users/potential city break tourists to make an informed decision and include cork as part of their conderation set when thinking of a city break away. 
 
-    ### USER STORIES
+    ### User Stories
 
 *   As a user I want to see some images of the scenic locations I may visit when arriving in Cork. 
     * This is the reason for the eye catching Hero image with the image slider. This will showcase some high quality photos of cork which will slide every 5 seconds. 
@@ -37,3 +37,41 @@ The key goals for Come to Cork are:
 
 *   As a user I want to know how many cases of Corona Virus there is in Ireland so I know whether it is safe to visit Cork or not.
     * Reason for the Corona Virus Api. 
+
+    ### Wireframes 
+I used [Balsamic](https://balsamiq.com/) to build the wireframes. I created mockups for desktop, tablet and mobile viewports so i could have an idea of what my website would look like and a plan i could follow to avoid scope creep.
+
+
+<details>
+<summary>Desktop Wireframes</summary>
+<p align="center">
+  <img height="350" src="README-files/wireframes/wireframe-hero-image.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/wireframes/wireframe-why-cork.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/wireframes/wireframe-locals-guide.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/wireframes/wireframe-covid.png" style="max-width:100%;"></a>
+</p>
+</details>
+
+<details>
+<summary>Tablet Wireframes</summary>
+<p align="center">
+  <img height="350" src="README-files/wireframes/wireframe-ipad.png" style="max-width:100%;"></a>
+</p>
+</details>
+
+<details>
+<summary>Mobile Wireframes</summary>
+<p align="center">
+  <img height="350" src="README-files/wireframes/wireframe-mobile1.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+  <img height="350" src="README-files/wireframes/wireframe-mobile2.png" style="max-width:100%;"></a>
+</p>
+</details>
+

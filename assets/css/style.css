@@ -111,7 +111,7 @@ header {
 
 /*-- WHY VISIT CORK SECTION */
 .why-cork-div {
-   border: 5px solid #fafafa;
+   border: 5px solid #9D1821;
 }
 
 .margin-div {
@@ -136,6 +136,7 @@ header {
     min-height: 347px;
 }
 
+
 @media (min-width: 768px) and (max-width: 1199.98px) { 
     .why-cork-div p {
         font-size: smaller;
@@ -151,9 +152,6 @@ header {
    width: 50%;
 }
 
-.tab-column {
-    padding: 1rem 1rem 0 1rem;
-}
 .tab-panels ul li {
 
     background: #ffffff;
@@ -161,21 +159,15 @@ header {
     color: black;
     cursor: pointer;
 }
-/*
-.tab-panels ul li:hover {
-    color: #fff;
-    background: #666;
-}
-*/
 
 .tab-panels ul li.active {
-    color: #ec3535ed;
+    color: #9D1821;
     background: #ffffff;
 }
 
 .tab-panels .locations {
     display:none;
-    background: #ec3535ed;
+    background: #9D1821;
     padding: 30px;
 }
 
@@ -191,6 +183,7 @@ header {
     width: 100%;
     height: 100px;
     max-width: 168px;
+    border: 2px solid #a1720bbb;
 }
 
 .locations a h5 {
@@ -208,6 +201,8 @@ header {
 
 .list-group  {
     text-align: center;
+    border: 2.5px solid #9D1821;
+    border-radius: 0%;
     
 }
 
@@ -219,6 +214,10 @@ header {
 
 .list-group-item h5 {
   font-size: smaller;
+}
+
+.list-group-item.active {
+    z-index: 0;
 }
 
 @media screen and (max-width: 992px) {
@@ -311,6 +310,21 @@ padding: inherit;
     width: 100%;
 }
 
+.jumbotron {
+    background-color: #555555;
+}
+
+.jumbotron div p{
+    color: white;
+}
+
+.jumbotron div h5, div h4 {
+    color: #ff515d85;
+}
+
+.jumbotron div ul li a, div a {
+    color: burlywood;
+}
 /*--FOOTER--*/
 
 .image-logo {
@@ -342,7 +356,7 @@ footer a {
 }
 
 .social-links  a:hover, a i:hover {
-    color: #fcff38;
+    color: #a1720bbb;
 }
 
 .partners-links {
@@ -357,7 +371,7 @@ footer a {
 }
 
 .partners-links a:hover {
-     color: #fcff38;
+     color: #a1720bbb;
      text-decoration: none;
 }
 

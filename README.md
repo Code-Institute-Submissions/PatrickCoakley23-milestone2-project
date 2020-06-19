@@ -231,7 +231,6 @@ I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.
 *   <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">**HTLM5**</a> - is the standard markup language for documents designed to be displayed in a web browser.
 *   <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">**CSS3**</a> -  Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
 *   <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">**JavaScript**</a> - JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites.
-*   <a href="https://jquery.com/" target="_blank">JQuery</a> - jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
 
 ### Frameworks, Libraries & Programs Used
 
@@ -256,4 +255,5 @@ I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.
 7.  <a href="https://jquery.com/" target="_blank">JQuery</a>
     -  jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
         
-
+## TESTING
+We were thought how to the automatic testing framework <a href="https://jasmine.github.io/" target="_blank"> Jasmine</a> as part of Interactive Front End module, but we were told we didn't have to impliment it in our projects as there is limitations with its testing and they're in the process of switching testing frameworks. I therefore carried out manuel testing and document any errors/random side-effects captured in the DevTools.

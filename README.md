@@ -257,3 +257,86 @@ I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.
         
 ## TESTING
 We were thought how to the automatic testing framework <a href="https://jasmine.github.io/" target="_blank"> Jasmine</a> as part of Interactive Front End module, but we were told we didn't have to impliment it in our projects as there is limitations with its testing and they're in the process of switching testing frameworks. I therefore carried out manuel testing and document any errors/random side-effects captured in the DevTools.
+I loaded the website several times, and forced browser refresh to try and catch any errors but thankfuly there was none. 
+
+<details>
+    <summary>Dev Tool Testing</summary>
+    <p align="center">
+    <img height="350" src="README-files/images/dev-tools-tesing.jpg" style="max-width:100%;"></a>
+    </p>
+    </details> 
+
+I used <a href="JavaScript source code complies with coding rules." target="_blank">JSHint</a> to check if my javascript source code complied with coding rules. Thank god there were major warnings just warnings about ES6 template literals becuase they are a modern standard and i also have warnings abour '$' being undefined but this is can also be ignored as it's the standard for selecting elements in JQuery.
+<details>
+<summary>Three JSHint Validating Test Results</summary>
+<p align="center">
+<img height="350" src="README-files/images/jshint-covid-19.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/images/jshint-map.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/images/jshint-tab-panel.png" style="max-width:100%;"></a>
+</p>
+</details> 
+
+I checked my website with the HTML <a href="https://validator.w3.org/" target="_blank">W3C Markup Validator</a> and it resulted in no errors. 
+
+<details>
+<summary>HTML Validator Test Results</summary>
+<p align="center">
+<img height="350" src="README-files/images/html-validator.png" style="max-width:100%;"></a>
+</p>
+</details> 
+
+I uploaded my css to the <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validator </a> and again i had no errors.
+
+<details>
+<summary>HTML Validator Test Results</summary>
+<p align="center">
+<img height="350" src="README-files/images/validator-css.png" style="max-width:100%;"></a>
+</p>
+</details> 
+
+I carried out extensive testing of the responsiveness of my mobile by checking how the website rendered on different devices and and lower screen widths.
+
+<details>
+<summary>Come to Cork - Ipad View</summary>
+<p align="center">
+<img height="350" src="README-files/images/responsive-ipad-hero.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/images/responsive-why-visit-cork.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/images/responsive-locals-guide.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/images/responsive-covid.png" style="max-width:100%;"></a>
+</p>
+</details> 
+
+<details>
+<summary>Come to Cork - Iphone 6/7/8 view</summary>
+<p align="center">
+<img height="350" src="README-files/images/responsive-mobile-hero.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/images/responsive-mobile-why-visit-cork.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/images/responsive-locals-guide-mobile" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/images/responsive-mobile-map.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/images/responsive-mobile-covid.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/images/responsive-mobile-table.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-files/images/responsive-mobile-footer.png" style="max-width:100%;"></a>
+</p>
+</details> 

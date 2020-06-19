@@ -108,15 +108,80 @@ The Hero image especially works well in drawing the user in and given the websit
 
 ## FEATURES
 
-### HERO IMAGE 
+### Hero Image
 * The Landing page sets the theme for the layout of the entire website. There is an eye catching hero image, which is clean looking. The hero image uses a <a href="https://getbootstrap.com/docs/4.5/components/carousel/" target="_blank">bootstrap carousel</a> to slide every 5 seconds. The user also has the option to skip ahead with a 'next' and 'previous' button.
-The hero images include some iconic locations in Cork, like st.Fin Barre's Cathedral, the port of Cork and the Blarney Castle. 
+The hero images include some iconic locations in Cork, like st.Fin Barre's Cathedral, the port of Cork and the Blarney Castle. I created a logo for the brand using <a href="https://www.tailorbrands.com/" target="_blank">Tailor Brands</a>. In my opinion, its clean looking, eye catching and fits well with the theme of the website and the tourism industry.
 
     <details>
-    <summary>Mobile Wireframes</summary>
+    <summary>Hero Image</summary>
     <p align="center">
     <img height="350" src="README-files/images/screengrab-hero-image.png" style="max-width:100%;"></a>
     </p>
     </details>
 
-    
+### Why Visit Cork
+*   I considered visual hierarchy and I felt this section was best placed as the most immediate section after the hero image, as it allows to get a feel for Cork and become more aware of the unique selling points of Cork City. I supported each column of information with a related image which gives each subsection more importance and more of a 'wow' factor. 
+* Included in this section is a sliding effect plugin from <a href="https://michalsnik.github.io/aos/" target="_blank">AOS</a>, as it gives a sense of change and anniamtion to the section.
+
+   <details>
+    <summary>Why Visit Cork Section</summary>
+    <p align="center">
+    <img height="350" src="README-files/images/screengrab-why-visit-cork.png" style="max-width:100%;"></a>
+    </p>
+    </details>
+* **Responsive alterations** - For displays smaller than 768px width the sections are stacked on top of each other and the images are no longer displayed.Two of the images(GAA and the Stacked image) are hidden from mobile view. In the absence of the images, Icons from font awesome are introduced to add a sense of fun to the page.
+    <details>
+    <summary>Responsive Changes</summary>
+    <p align="center">
+    <img height="350" src="README-files/images/screengrab-why-visit-cork-mobile.png" style="max-width:100%;"></a>
+    </p>
+    </details> 
+
+### A Locals Guide 
+*   This section is the main interactive section for the user. The Google Map api is included in this section and allows users to scroll through different places in Cork and when they click the location markers information pertaining to that location appears. 
+*   Beside the map is the tab panel widget which was built using <a href="https://jquery.com/" target="_blank">JQuery</a>. Whenver the user clicks the sections within the tab panel i.e hotels, bars, restaurant or tourist attractions, locations associated to this business categories appear on the map. I have listed four locations under each section as they are local recommedations and meets the needs of consumers wanting to experience hidden gems and living like the locals.
+
+    <details>
+    <summary>A Locals Guide</summary>
+    <p align="center">
+    <img height="350" src="README-files/images/screengrab-locals-guide.png" style="max-width:100%;"></a>
+    </p>
+    </details> 
+
+* **Responsive alterations** - The map and the tab panel are stacked on top of each other at screen widths lower than 992px. 
+I altered the order in which they are presented for mobile view, as the user gets a sense of the different locations in Cork first before being presented with a map that otherwise may have no meaning to them.
+
+    <details>
+    <summary>Responsive Changes</summary>
+    <p align="center">
+    <img height="350" src="README-files/images/screengrab-locals-guide-mobile.png" style="max-width:100%;"></a>
+    </p>
+    </details> 
+
+### COVID-19 Update
+* During these uncertain times i felt it was necessary to reassure them with any concerns they may have with travelling during Covid-19. Included some government guidelines so users can be better prepared and i also included an api which uses the <a href="https://coronavirus.jhu.edu/map.html" target="_blank">John Hopkins Coronavirus Resouce</a> to include figures of cases specific to Ireland which updates daily. 
+
+    <details>
+    <summary>Covid-19 Section</summary>
+    <p align="center">
+    <img height="350" src="README-files/images/screengrab-covid-section.png" style="max-width:100%;"></a>
+    </p>
+    </details> 
+
+* **Responsive alterations** - The guidelines section and the table are stacked on top of each other at screen widths lower than 768px. The order in which they are presented is also changed as i felt the table would be meaningless for users unless they got a bit of supporting information first.
+
+     <details>
+    <summary>Responsive Changes</summary>
+    <p align="center">
+    <img height="350" src="README-files/images/screengrab-covid-section-mobile.png" style="max-width:100%;"></a>
+    </p>
+    </details> 
+
+### Future Implementation 
+1. **Events** - If i had more time i would include a section with upcoming events, from summer festivals, concerts to the world famous Guiness jass festival. It would be great if their was an api that updated this, if not i would updated it manually maybe once a fortnight. This would give users more of a reason to visit Cork and would allow them to plan on the best time to visit.
+2. **Booking Hotels** - Unfortunately the <a href="https://www.booking.com/index.en-gb.html?label=gen173nr-1BCAEoggI46AdIM1gEaGmIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AuTasfcFwAIB0gIkMGI0NDRiZmUtZWY5ZS00OWMzLThlNzgtNTQzY2VhZjgwNzEw2AIF4AIB;sid=4a060d129a8dad61eaedc85866f5450e;keep_landing=1&sb_price_type=total&" target="_blank">Booking.com</a> API is restricted but if i got access to it, it would be improve the website as users wouldn't have to leave the website to make a booking. 
+3. **Contact Page** - In the future I plan to implement a contact form which allows users the medium to contact me so they could offer recommedations on places i should include on the website, or possible partnerships or collaborations with tourist realted businesses. 
+
+## TECHNOLOGIES 
+
+### Langauges Used

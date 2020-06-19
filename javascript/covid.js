@@ -1,5 +1,4 @@
-//Used Get method to aceess the json file from the url below
-var $covidData = $("#covid-data")
+var $covidData = $("#covid-data");
 var settings = {
   "url": "https://api.covid19api.com/summary",
   "method": "GET",
@@ -15,8 +14,8 @@ $.ajax(settings).done(function (response) {
   var totalRecovered = response.Countries[80].TotalRecovered;
   var date = response.Countries[80].Date;
   var totalCases = response.Countries[80].TotalConfirmed;
-  var formatted = Date.parse(date)
-  var newDate = new Date(formatted)
+  var formatted = Date.parse(date);
+  var newDate = new Date(formatted);
   
 //Used the prepend method to manipulate the dom and add the data to the boostrap table in the html
   $covidData.prepend(`<tr><td class="table-data-1"><strong>Country:</strong></td> <td>${country}</td></tr>
@@ -26,6 +25,5 @@ $.ajax(settings).done(function (response) {
                      <tr><td class="table-data-1"><strong>New Deaths:</strong></td> <td>${newDeaths}</td></tr>
                      <tr><td class="table-data-1"><strong>Total Deaths:</strong></td> <td>${totalDeaths}</td></tr> 
                      <tr><td class="table-data-1"><strong>Last Updated (GMT+0):</strong></td> <td>${newDate}</td></tr>
-                    `)         
+                    `);         
 });
-

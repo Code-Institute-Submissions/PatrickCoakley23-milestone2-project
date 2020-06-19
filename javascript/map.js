@@ -1,10 +1,9 @@
 var map;
-
 var service;
 var infowindow;
+var google;
 
-
-
+// When the map loads first this function is rendered 
 function initMap() {
   var cork = new google.maps.LatLng(51.903614, -8.468399);
 
@@ -15,12 +14,12 @@ function initMap() {
     zoom: 11,
   });
 
-  /// event listener to catch the placeType search when a new tab is selected
+ // The request is put in to load up these variables on the map
   var request = {
     location: cork,
     radius: 30000,
     types: ["lodging"],
-    fields: ['name', 'formatted_addres', 'photo', 'url', 'formatted_phone_number', 'price_level', 'rating', 'review', 'website']
+    fields: ["name", "formatted_addres", "photo", "url", "formatted_phone_number", "price_level", "rating", "review", "website"]
   };
   infowindow = new google.maps.InfoWindow();
  
@@ -28,6 +27,7 @@ function initMap() {
   service.nearbySearch(request, callback);
 }
 
+// A for loop to place a marker for all the hotels
 function callback(results, status) {
   if (status == google.maps.places.PlacesServiceStatus.OK) {
     for (var i = 0; i < results.length; i++) {
@@ -36,6 +36,7 @@ function callback(results, status) {
   }
 }
 
+//Event listner which loads place information when user clicks on the marker
 function createMarker(place) {
     var placeLoc = place.geometry.location;
     var marker = new google.maps.Marker({
@@ -55,21 +56,16 @@ function createMarker(place) {
          </div> `) ;
 
         infowindow.open(map, this);
-
-        
-
     });
-
 }
 
-
-$(document).ready(function(){
-
+// Event listener which waits for the click of the tab panel to load either hotel/bar/restaurant/tourist-attraction markers on the map
 $(".list-group-item").click(function(){
  var placeType = $(this).attr("data-val");
  initialize(placeType);
 });
 
+//Waits for click of tab panel to 'initalize map'
  function initialize(placeType) {
   var cork = new google.maps.LatLng(51.903614, -8.468399);
 
@@ -80,11 +76,7 @@ $(".list-group-item").click(function(){
     zoom: 11,
   });
 
-  
-/// event listener to catch the placeType search when a new tab is selected
-
-
-
+  //types: waiting on placetype to be clicked
   var request = {
     location: cork,
     radius: 30000,
@@ -96,6 +88,7 @@ $(".list-group-item").click(function(){
   service.nearbySearch(request, callback);
 }
 
+//for loop to create markers
 function callback(results, status) {
   if (status == google.maps.places.PlacesServiceStatus.OK) {
     for (var i = 0; i < results.length; i++) {
@@ -104,6 +97,7 @@ function callback(results, status) {
   }
 }
 
+//place information when marker is clicked]
 function createMarker(place) {
     var placeLoc = place.geometry.location;
     var marker = new google.maps.Marker({
@@ -123,14 +117,6 @@ function createMarker(place) {
         
         ) ;
         infowindow.open(map, this);
+     });
 
-
-        
-
-    });
-
-}
-
-});
-
-
+    }

@@ -178,16 +178,16 @@ header {
 }
 
 .locations a img {
-    width: 100%;
     height: 100px;
-    max-width: 168px;
+    width: 168px;
     border: 2px solid #a1720bbb;
 }
 
 .locations a h5 {
     color: #ffffff;
-    font-size: .90rem;
+    font-size: .80rem;
 }
+
 
 .locations div p {
     font-size: small;
@@ -223,10 +223,6 @@ header {
     padding-left: 0;
     margin: 20px 0;
     }
-    
-.locations a img {
-    width: 168px
-}
 }
 
 .collapse .btn.focus, .btn:focus {
@@ -269,6 +265,19 @@ padding: inherit;
     border: inherit; 
 }
 
+/*
+.table-caption h5, p {
+    background-color: #343a40;
+    color: #fff;
+    margin-bottom: 0;
+    padding: .75rem;
+}
+
+.table-caption p {
+    border-top: 1px solid #dee2e6;
+}
+
+*/
 .table {
     background: #030303d6;
     color: white;

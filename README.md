@@ -340,3 +340,48 @@ I carried out extensive testing of the responsiveness of my mobile by checking h
 <img height="350" src="README-files/images/responsive-mobile-footer.png" style="max-width:100%;"></a>
 </p>
 </details> 
+
+I carried out further testing on different devices and different browsers. I created a testing matrix in excel which outlines the various tests i made to ensure the Come to Cork website performed well across various devices and browsers. 
+
+<details>
+<summary>Testing Matrix</summary>
+<p align="center">
+<img height="350" src="README-files/images/testing-matrix.png" style="max-width:100%;"></a>
+</p>
+</details> 
+
+* **the main points from this type of testing**
+    
+  - The Website was tested on Google Chrome,Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari browsers.
+
+  - The website was viewed on a variety of devices such as Desktop, Large Monitor, Laptop, iPhone7, iPhone 8 & iPhoneX.
+
+  - A large amount of testing was done to ensure that all pages were linking correctly e.g making sure all anchor tags had 'taget="_blank"' so they opened up a new browser tab.
+
+  - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+    ### Known Bugs
+    - On Internet Explorer the two API's don't render on the map, there is no hover effects and the scrolling performace is poor. 
+
+    ## Testing of User Stories
+    
+1. As a user I want to see some images of the scenic locations I may visit when arriving in Cork.
+    * Upon arriving on the website the user is greeted with a clean eye catching hero image which slides every 5 seconds and showcases 4 iconic locations of Cork City
+    * There is more iconic images in the "Why Visit Cork" section, especially the cathedral photo and the Baltimore Beacon photos, these images allow the users to visualise what it would be like to visit Cork. 
+
+2. As a user I want to see the main attractions of Cork and what makes it different from the other cities in Ireland.
+    * The "Why Visit Cork" section addressed this need as it explains some of the key attractions specific to Cork and what makes this city unique.
+
+
+3. As a user I want to see some recommended places to visit as a I don’t know Cork very well, and I want to know some of the locations a local person would go to.
+    * The "Locals Guide to Cork" addresses this need as it recommends certian locations that general tourist sites woudln't offer. For example, the English Market maybe a famous attraction, but many people outside of Cork wouldn't know of the spectacular 360 degree view from climbing the steps of Shandon Tower. 
+
+4. As a user I want be able to plan my trip using a map so I have an idea of where everything Is and I can make itinerary.
+    * The Google map addresses this need as it allows users to scroll around the City of Cork on the Map and bring up some of the hotels, bars, restaurants and tourist attractions placed on the map.
+
+5. As a user I want to know how many cases of Corona Virus there is in Ireland so I know whether it is safe to visit Cork or not
+    * The Corona Virus API and the guidelines section are created on this website for this very reason. The guidelines section informs the user of the rules and regualtions specific to Ireland and the table updates daily so users can evaluate the severity of the Virus in Ireland.
+
+6. As a user I want to skip ahead of the 3second slide timer as I have seen enough of this image before and want to see what is next. 
+    * We have all been in this situation where we want to skip ahead to another image, this is the reason i have placed the next and previous button on the left and right of the hero image. 
+    

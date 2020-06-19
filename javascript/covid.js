@@ -1,3 +1,4 @@
+//Used Get method to aceess the json file from the url below
 var $covidData = $("#covid-data")
 var settings = {
   "url": "https://api.covid19api.com/summary",
@@ -5,6 +6,7 @@ var settings = {
   "timeout": 0,
 };
 
+//Used Indexing to pull up the appropriate values 
 $.ajax(settings).done(function (response) {
   var country = response.Countries[80].Country;
   var cases = response.Countries[80].NewConfirmed;
@@ -16,8 +18,7 @@ $.ajax(settings).done(function (response) {
   var formatted = Date.parse(date)
   var newDate = new Date(formatted)
   
- console.log(response.Countries[80])
-
+//Used the prepend method to manipulate the dom and add the data to the boostrap table in the html
   $covidData.prepend(`<tr><td class="table-data-1"><strong>Country:</strong></td> <td>${country}</td></tr>
                      <tr><td class="table-data-1"><strong>New Confirmed Cases:</strong></td> <td>${cases}</td></tr>
                      <tr><td class="table-data-1"><strong>Confirmed Cases:</strong></td> <td>${totalCases}</td></tr>
@@ -25,7 +26,6 @@ $.ajax(settings).done(function (response) {
                      <tr><td class="table-data-1"><strong>New Deaths:</strong></td> <td>${newDeaths}</td></tr>
                      <tr><td class="table-data-1"><strong>Total Deaths:</strong></td> <td>${totalDeaths}</td></tr> 
                      <tr><td class="table-data-1"><strong>Last Updated (GMT+0):</strong></td> <td>${newDate}</td></tr>
-                    `)
-                    
+                    `)         
 });
 

@@ -5,7 +5,7 @@ I have created a made up tourism site for domestic and international tourists pl
 I also implemented a corona virus API, which allows potential visitors to get a live update on the number of cases and deaths in Ireland due to covid-19. This will allow users to make an informed decision on whether it is safe to visit Ireland or not. 
 They will also be guided on the Government restrictions in place as every country differs In terms of the laws and regulations. 
 
-<h2 align="center"><img src="README-files/responsive_image.png" max-width="50%"></h2>
+<h2 align="center"><img src="README-images/responsive_header-image.png" max-width="50%"></h2>
 
 ## USER EXPERIENCE (UX)
 
@@ -45,33 +45,33 @@ I used [Balsamic](https://balsamiq.com/) to build the wireframes. I created mock
 <details>
 <summary>Desktop Wireframes</summary>
 <p align="center">
-  <img height="350" src="README-files/wireframes/wireframe-hero-image.png" style="max-width:100%;"></a>
+  <img height="350" src="wireframes/wireframe-hero-image.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/wireframes/wireframe-why-cork.png" style="max-width:100%;"></a>
+<img height="350" src="wireframes/wireframe-why-cork.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/wireframes/wireframe-locals-guide.png" style="max-width:100%;"></a>
+<img height="350" src="wireframes/wireframe-locals-guide.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/wireframes/wireframe-covid.png" style="max-width:100%;"></a>
+<img height="350" src="wireframes/wireframe-covid.png" style="max-width:100%;"></a>
 </p>
 </details>
 
 <details>
 <summary>Tablet Wireframes</summary>
 <p align="center">
-  <img height="350" src="README-files/wireframes/wireframe-ipad.png" style="max-width:100%;"></a>
+  <img height="350" src="wireframes/wireframe-ipad.png" style="max-width:100%;"></a>
 </p>
 </details>
 
 <details>
 <summary>Mobile Wireframes</summary>
 <p align="center">
-  <img height="350" src="README-files/wireframes/wireframe-mobile1.png" style="max-width:100%;"></a>
+  <img height="350" src="wireframes/wireframe-mobile1.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-  <img height="350" src="README-files/wireframes/wireframe-mobile2.png" style="max-width:100%;"></a>
+  <img height="350" src="wireframes/wireframe-mobile2.png" style="max-width:100%;"></a>
 </p>
 </details>
 
@@ -126,14 +126,14 @@ The hero images include some iconic locations in Cork, like st.Fin Barre's Cathe
    <details>
     <summary>Why Visit Cork Section</summary>
     <p align="center">
-    <img height="350" src="README-files/images/screengrab-why-visit-cork.png" style="max-width:100%;"></a>
+    <img height="350" src="README-images/screengrab-why-visit-cork.png" style="max-width:100%;"></a>
     </p>
     </details>
 * **Responsive alterations** - For displays smaller than 768px width the sections are stacked on top of each other and the images are no longer displayed.Two of the images(GAA and the Stacked image) are hidden from mobile view. In the absence of the images, Icons from font awesome are introduced to add a sense of fun to the page.
     <details>
     <summary>Responsive Changes</summary>
     <p align="center">
-    <img height="350" src="README-files/images/screengrab-why-visit-cork-mobile.png" style="max-width:100%;"></a>
+    <img height="350" src="README-images/screengrab-why-visit-cork-mobile.png" style="max-width:100%;"></a>
     </p>
     </details> 
 
@@ -144,7 +144,7 @@ The hero images include some iconic locations in Cork, like st.Fin Barre's Cathe
     <details>
     <summary>A Locals Guide</summary>
     <p align="center">
-    <img height="350" src="README-files/images/screengrab-locals-guide.png" style="max-width:100%;"></a>
+    <img height="350" src="README-images/screengrab-locals-guide.png" style="max-width:100%;"></a>
     </p>
     </details> 
 
@@ -154,7 +154,7 @@ I altered the order in which they are presented for mobile view, as the user get
     <details>
     <summary>Responsive Changes</summary>
     <p align="center">
-    <img height="350" src="README-files/images/screengrab-locals-guide-mobile.png" style="max-width:100%;"></a>
+    <img height="350" src="README-images/screengrab-locals-guide-mobile.png" style="max-width:100%;"></a>
     </p>
     </details> 
 
@@ -164,7 +164,7 @@ I altered the order in which they are presented for mobile view, as the user get
     <details>
     <summary>Covid-19 Section</summary>
     <p align="center">
-    <img height="350" src="README-files/images/screengrab-covid-section.png" style="max-width:100%;"></a>
+    <img height="350" src="README-images/screengrab-covid-section.png" style="max-width:100%;"></a>
     </p>
     </details> 
 
@@ -173,7 +173,7 @@ I altered the order in which they are presented for mobile view, as the user get
      <details>
     <summary>Responsive Changes</summary>
     <p align="center">
-    <img height="350" src="README-files/images/screengrab-covid-section-mobile.png" style="max-width:100%;"></a>
+    <img height="350" src="README-images/screengrab-covid-section-mobile.png" style="max-width:100%;"></a>
     </p>
     </details> 
 
@@ -192,14 +192,14 @@ I was hoping to make the google maps more dynamic by adding more information abo
 <details>
 <summary>Place Details Documentation</summary>
 <p align="center">
-<img height="350" src="README-files/images/google-documentation.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/google-documentation.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
 <details>
 <summary>Missing Details (Blarney Castle Hotel example)</summary>
 <p align="center">
-<img height="350" src="README-files/images/google-json.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/google-json.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
@@ -209,14 +209,14 @@ I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.
 <details>
 <summary>Covid 19 data in JSON</summary>
 <p align="center">
-<img height="350" src="README-files/images/covid-19-console.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/covid-19-console.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
 <details>
 <summary>How it is presented on the website</summary>
 <p align="center">
-<img height="350" src="README-files/images/covid-19-table.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/covid-19-table.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
@@ -246,11 +246,11 @@ I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.
 4.   <a href="https://git-scm.com/" target="_blank">Git:</a>
         - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-5.   [GitHub:](https://github.com/)
+5.   <a href="https://github.com/" target="_blank">GitHub:</a>
         - GitHub is used to store the projects code after being pushed from Git.
 
 6.   <a href="https://balsamiq.com/" target="_blank">Balsamiq:</a>
-        - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+        - Balsamiq was used to create the <a href="https://github.com/" target="_blank">wireframes</a> during the design process.
 
 7.  <a href="https://jquery.com/" target="_blank">JQuery</a>
     -  jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
@@ -262,7 +262,7 @@ I loaded the website several times, and forced browser refresh to try and catch 
 <details>
     <summary>Dev Tool Testing</summary>
     <p align="center">
-    <img height="350" src="README-files/images/dev-tools-tesing.jpg" style="max-width:100%;"></a>
+    <img height="350" src="README-images/images/dev-tools-tesing.jpg" style="max-width:100%;"></a>
     </p>
     </details> 
 
@@ -270,13 +270,13 @@ I used <a href="JavaScript source code complies with coding rules." target="_bla
 <details>
 <summary>Three JSHint Validating Test Results</summary>
 <p align="center">
-<img height="350" src="README-files/images/jshint-covid-19.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/jshint-covid-19.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/images/jshint-map.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/jshint-map.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/images/jshint-tab-panel.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/jshint-tab-panel.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
@@ -285,7 +285,7 @@ I checked my website with the HTML <a href="https://validator.w3.org/" target="_
 <details>
 <summary>HTML Validator Test Results</summary>
 <p align="center">
-<img height="350" src="README-files/images/html-validator.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/html-validator.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
@@ -294,7 +294,7 @@ I uploaded my css to the <a href="https://jigsaw.w3.org/css-validator/" target="
 <details>
 <summary>HTML Validator Test Results</summary>
 <p align="center">
-<img height="350" src="README-files/images/validator-css.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/validator-css.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
@@ -303,41 +303,41 @@ I carried out extensive testing of the responsiveness of my mobile by checking h
 <details>
 <summary>Come to Cork - Ipad View</summary>
 <p align="center">
-<img height="350" src="README-files/images/responsive-ipad-hero.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-ipad-hero.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/images/responsive-why-visit-cork.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-why-visit-cork.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/images/responsive-locals-guide.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-locals-guide.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/images/responsive-covid.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-covid.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
 <details>
 <summary>Come to Cork - Iphone 6/7/8 view</summary>
 <p align="center">
-<img height="350" src="README-files/images/responsive-mobile-hero.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-mobile-hero.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/images/responsive-mobile-why-visit-cork.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-mobile-why-visit-cork.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/images/responsive-locals-guide-mobile" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-locals-guide-mobile" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/images/responsive-mobile-map.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-mobile-map.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/images/responsive-mobile-covid.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-mobile-covid.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/images/responsive-mobile-table.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-mobile-table.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-files/images/responsive-mobile-footer.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-mobile-footer.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
@@ -346,7 +346,7 @@ I carried out further testing on different devices and different browsers. I cre
 <details>
 <summary>Testing Matrix</summary>
 <p align="center">
-<img height="350" src="README-files/images/testing-matrix.png" style="max-width:100%;"></a>
+<img height="350" src="testing-matrix/testing-matrix.png" style="max-width:100%;"></a>
 </p>
 </details> 
 

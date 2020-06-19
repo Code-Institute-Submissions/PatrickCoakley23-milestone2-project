@@ -177,6 +177,49 @@ I altered the order in which they are presented for mobile view, as the user get
     </p>
     </details> 
 
+## API Features
+API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.
+
+For this milestone project i was tasked with implimenting at least one API which allows users to interact with the site. 
+The API's i implimented on the Come To Cork website are the Google Maps API which allows users to select and search relevant hotels, restaurants, tourist attractions and bars in Cork City. I also included a Corona Virus API which updates daily and gives figues related to Ireland only.
+
+### Google Maps Api
+I followed the <a href="https://developers.google.com/maps/documentation/javascript/importing_data" target="_blank"> Google Documentation</a> to render my map on my website. I used <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">javascript</a> functions to upload the map centered in Cork City by including the city's latitude and longitude. The markers are applied by incuding the <a href="https://developers.google.com/places/web-service/details" target="_blank">Google Places</a> library and using a javascript event listener to render the specific inforation related to that location when a user clicks on the marker. 
+When the page first loads the google maps renders markers for hotels in Cork City. I added a <a href="https://jquery.com/" target="_blank">JQuery</a> click event which loads markers specific to each category(bars/restaurents/tourist-attraction/hotels) when the tab panel is clicked. 
+
+I was hoping to make the google maps more dynamic by adding more information about each location. The documentation for Google Maps Places,(as shown in the first image below) states there is plenty of details you can upload from the API, but Unfortunately a number of key details i would have liked to include like: 'Url', 'website', 'formatted phone number', 'price level' and 'review' were missing in the JSON file when i pulled up the API (as seen in the second image below).
+
+<details>
+<summary>Place Details Documentation</summary>
+<p align="center">
+<img height="350" src="README-files/images/google-documentation.png" style="max-width:100%;"></a>
+</p>
+</details> 
+
+<details>
+<summary>Missing Details (Blarney Castle Hotel example)</summary>
+<p align="center">
+<img height="350" src="README-files/images/google-json.png" style="max-width:100%;"></a>
+</p>
+</details> 
+
+### Covid 19 Api
+I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#7934d316-f751-4914-9909-39f1901caeb8" target="_none">Covid 19 API</a> which is in JSON format in the first image below, and i then used the Jquery prepend function and CSS styling to present data in a HTML table and is rendered on the website for the user.
+
+<details>
+<summary>Covid 19 data in JSON</summary>
+<p align="center">
+<img height="350" src="README-files/images/covid-19-console.png" style="max-width:100%;"></a>
+</p>
+</details> 
+
+<details>
+<summary>How it is presented on the website</summary>
+<p align="center">
+<img height="350" src="README-files/images/covid-19-table.png" style="max-width:100%;"></a>
+</p>
+</details> 
+
 ### Future Implementation 
 1. **Events** - If i had more time i would include a section with upcoming events, from summer festivals, concerts to the world famous Guiness jass festival. It would be great if their was an api that updated this, if not i would updated it manually maybe once a fortnight. This would give users more of a reason to visit Cork and would allow them to plan on the best time to visit.
 2. **Booking Hotels** - Unfortunately the <a href="https://www.booking.com/index.en-gb.html?label=gen173nr-1BCAEoggI46AdIM1gEaGmIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AuTasfcFwAIB0gIkMGI0NDRiZmUtZWY5ZS00OWMzLThlNzgtNTQzY2VhZjgwNzEw2AIF4AIB;sid=4a060d129a8dad61eaedc85866f5450e;keep_landing=1&sb_price_type=total&" target="_blank">Booking.com</a> API is restricted but if i got access to it, it would be improve the website as users wouldn't have to leave the website to make a booking. 
@@ -185,3 +228,32 @@ I altered the order in which they are presented for mobile view, as the user get
 ## TECHNOLOGIES 
 
 ### Langauges Used
+*   <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">**HTLM5**</a> - is the standard markup language for documents designed to be displayed in a web browser.
+*   <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">**CSS3**</a> -  Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
+*   <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">**JavaScript**</a> - JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites.
+*   <a href="https://jquery.com/" target="_blank">JQuery</a> - jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
+
+### Frameworks, Libraries & Programs Used
+
+  1. <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" target="_blank">Bootstrap 4.4.1:</a>
+        - Bootstrap was used to assist with the responsiveness and styling of the website.</li>
+  
+2.   <a href="https://fonts.google.com/" target="_blank">Google Fonts:</a>
+        - Google fonts were used to import the 'Oswald' font and the 'Open Sans' font into the style.css file which is used on all pages throughout the website.
+
+3.   <a href="https://fontawesome.com/" target="_blank">Font Awesome:</a>
+        - Font Awesome was used on throughout the website to add icons for aesthetic and UX purposes.
+
+4.   <a href="https://git-scm.com/" target="_blank">Git:</a>
+        - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+5.   [GitHub:](https://github.com/)
+        - GitHub is used to store the projects code after being pushed from Git.
+
+6.   <a href="https://balsamiq.com/" target="_blank">Balsamiq:</a>
+        - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+
+7.  <a href="https://jquery.com/" target="_blank">JQuery</a>
+    -  jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
+        
+

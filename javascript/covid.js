@@ -16,6 +16,7 @@ $.ajax(settings).done(function (response) {
   var formatted = Date.parse(date)
   var newDate = new Date(formatted)
   
+ console.log(response.Countries[80])
 
   $covidData.prepend(`<tr><td class="table-data-1"><strong>Country:</strong></td> <td>${country}</td></tr>
                      <tr><td class="table-data-1"><strong>New Confirmed Cases:</strong></td> <td>${cases}</td></tr>

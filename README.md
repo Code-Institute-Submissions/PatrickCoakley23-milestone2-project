@@ -384,4 +384,70 @@ I carried out further testing on different devices and different browsers. I cre
 
 6. As a user I want to skip ahead of the 3second slide timer as I have seen enough of this image before and want to see what is next. 
     * We have all been in this situation where we want to skip ahead to another image, this is the reason i have placed the next and previous button on the left and right of the hero image. 
+
+
+## DEPLOYMENT 
+I first set up my repository on Github. Github is a hosting platform which stores and presents my code. After creating a repository on github i click the green 'Gitpod' button which opens my repository in Gitpod. I don't ever create projects directly in Gitpod, i create them in Github, and use the green button to open my project and begin coding.
+Gitpod is an IDE (integrated development environment) that allows for software development. It's important when i create a new html file in Gitpod that i name my default file index.html as the server looks for this and loads this page automatically. Once i have inserted some code i can run my page in the browser and within seconds, which allows me to view the web version of my page. Gitpod is where i develop my project, write code and complete debugging issues. An important note, after i have created the repo in Github, we then open the repository each time from Gitpod homepage, which shows us our most recent workspaces. If we were to click the green button in Github every time, this would just create a new version of our repository each time.
+In Gitpod, the next step is to commit any significant work and push it to Github. Once in Github, i follow the steps below on how deploy my project. This is where the website goes 'live' and any users who have a link to my project were are to view the site. 
+
+### GitHub Pages
+   
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the <a href="https://github.com/PatrickCoakley23/milestone2-project" target="_blank">PatrickCoakley23/milestone-project</a>
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+ 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the <a href="https://github.com/PatrickCoakley23/milestone2-project" target="_blank">PatrickCoakley23/milestone-project</a>
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
     
+            https://github.com/PatrickCoakley23/milestone2-project.git
+    
+    7. Press Enter. Your local clone will be created.
+
+## CREDITS
+
+### Code
+
+-    Bootsrap 4 - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   The Scrolling effect in the Why Come to Cork section used a plugin from <a href="https://michalsnik.github.io/aos/" target="_blank">AOS</a>.
+
+-   The tab panel i used was something i learned from following a tutorial from <a href="https://www.youtube.com/watch?v=1nWrIBB_bMA&list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv&index=12" target="_blank">LearnCode.academy</a>
+
+### Media 
+
+- The Come To Cork Logo was created using <a href="https://www.tailorbrands.com/" target="_blank">Tailor Brands</a>. 
+
+- <a href="https://www.shutterstock.com/home" target="_blank">Shutterstock</a> and <a href="https://www.flickr.com/search/?text=mutton%20lane%20cork" target="_blank">Flickr</a> was the source for all the imagery used on the website. 
+
+- <a href="https://fontawesome.com/start" target="_blank">Font Awesome</a> was the source for all the icons bar the Irish flag and Tripadvisor icon in the footer which were sourced from <a href="https://icons8.com/icons" target="_blank">Icons8</a>
+
+### API's 
+
+- <a href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#7934d316-f751-4914-9909-39f1901caeb8" target="_blank">Postman</a> for the <a href="https://coronavirus.jhu.edu/map.html" target="_blank">John Hopkins Coronavirus Resouce</a> Covid-19 API.  
+
+- <a href="https://developers.google.com/" target="_blank">Google Developers</a> for the Google Maps API.
+
+### Content 
+ - All content of the website was written by the developer. 
+
+- General lines from [Code Institutes Sample README]( https://github.com/Code-Institute-Solutions/SampleREADME) were used in this README file, for example the 'Deployment' section and the 'Making a Clone' section.
+
+## ACKNOWLEDGEMENTS
+- My mentor, <a href="https://github.com/precious-ijege" target="_blank"> Precious Ijege</a>was a great help. The three mentor sessions were invaluable. He explained every suggestion in a clear concise manner, and pointed out bugs i would never have seen.
+
+-  My tutor, <a href="https://github.com/armedcor" target="_blank">Cormac Lawlor</a> was very supportive during the project. Being a past student himself, he was aware of certain issues i was facing and was always at hand to offer support. 
+
+- <a href="https://www.linkedin.com/in/brian-o-grady-18a2153/?originalSubdomain=ie" target="_blank">Brian O' Grady</a> and <a href="https://www.linkedin.com/in/mattrudge73/" target="_blank">Matt Rudge's</a> as the course content great was a great aid in developing my website. 
+

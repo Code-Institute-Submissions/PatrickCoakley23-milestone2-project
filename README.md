@@ -61,14 +61,14 @@ I used [Balsamic](https://balsamiq.com/) to build the wireframes. I created mock
 </details>
 
 <details>
-<summary>Tablet Wireframes <strong>(Click dropdown for images)</summary>
+<summary>Tablet Wireframes <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
   <img height="350" src="wireframes/wireframe-ipad.png" style="max-width:100%;"></a>
 </p>
 </details>
 
 <details>
-<summary>Mobile Wireframes <strong>(Click dropdown for images)</summary>
+<summary>Mobile Wireframes <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
   <img height="350" src="wireframes/wireframe-mobile1.png" style="max-width:100%;"></a>
 </p>
@@ -133,7 +133,7 @@ The hero images include some iconic locations in Cork, like st.Fin Barre's Cathe
     </details>
 * **Responsive alterations** - For displays smaller than 768px width the sections are stacked on top of each other and the images are no longer displayed.Two of the images(GAA and the Stacked image) are hidden from mobile view. In the absence of the images, Icons from font awesome are introduced to add a sense of fun to the page.
     <details>
-    <summary>Responsive Changes <strong>(Click dropdown for images)</summary>
+    <summary>Responsive Changes <strong>(Click dropdown for images)</strong></summary>
     <p align="center">
     <img height="350" src="README-images/screengrab-why-visit-cork-mobile.png" style="max-width:100%;"></a>
     </p>
@@ -144,7 +144,7 @@ The hero images include some iconic locations in Cork, like st.Fin Barre's Cathe
 *   Beside the map is the tab panel widget which was built using <a href="https://jquery.com/" target="_blank">JQuery</a>. Whenever the user clicks the sections within the tab panel (i.e hotels, bars, restaurant or tourist attractions) locations associated to these business categories appear on the map. I have listed four locations under each section as they are local recommendations and meet the needs of consumers, wanting to experience hidden gems and living like the locals.
 
     <details>
-    <summary>A Locals Guide <strong>(Click dropdown for images)</summary>
+    <summary>A Locals Guide <strong>(Click dropdown for images)</strong></summary>
     <p align="center">
     <img height="350" src="README-images/screengrab-locals-guide.png" style="max-width:100%;"></a>
     </p>
@@ -154,7 +154,7 @@ The hero images include some iconic locations in Cork, like st.Fin Barre's Cathe
 I altered the order in which they are presented for mobile view, as the user gets a sense of the different locations in Cork first before being presented with a map that otherwise may have no meaning to them.
 
     <details>
-    <summary>Responsive Changes <strong>(Click dropdown for images)</summary>
+    <summary>Responsive Changes <strong>(Click dropdown for images)</strong></summary>
     <p align="center">
     <img height="350" src="README-images/screengrab-locals-guide-mobile.png" style="max-width:100%;"></a>
     </p>
@@ -164,7 +164,7 @@ I altered the order in which they are presented for mobile view, as the user get
 * During these uncertain times i felt it was necessary to reassure tourists with any concerns they may have with travelling during Covid-19. I Included some government guidelines so users can be better prepared, and there is an api which uses the <a href="https://coronavirus.jhu.edu/map.html" target="_blank">John Hopkins Coronavirus Resource</a> to include figures of cases specific to Ireland which updates daily. 
 
     <details>
-    <summary>Covid-19 Section <strong>(Click dropdown for images)</summary>
+    <summary>Covid-19 Section <strong>(Click dropdown for images)</strong></summary>
     <p align="center">
     <img height="350" src="README-images/screengrab-covid-section.png" style="max-width:100%;"></a>
     </p>
@@ -173,7 +173,7 @@ I altered the order in which they are presented for mobile view, as the user get
 * **Responsive alterations** - The guidelines section and the table are stacked on top of each other at screen widths lower than 768px. The order in which they are presented is also changed as i felt the table would be meaningless for users unless they got a bit of supporting information first.
 
      <details>
-    <summary>Responsive Changes <strong>(Click dropdown for images)</summary>
+    <summary>Responsive Changes <strong>(Click dropdown for images)</strong></summary>
     <p align="center">
     <img height="350" src="README-images/screengrab-covid-section-mobile.png" style="max-width:100%;"></a>
     </p>
@@ -209,14 +209,14 @@ I was hoping to make the google maps more dynamic by adding more information abo
 I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#7934d316-f751-4914-9909-39f1901caeb8" target="_none">Covid 19 API</a> which is in JSON format in the first image below, and i then used the Jquery prepend function and CSS styling to present data in a HTML table and is rendered on the website for the user.
 
 <details>
-<summary>Covid 19 data in JSON <strong>(Click dropdown for images)</summary>
+<summary>Covid 19 data in JSON <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
 <img height="350" src="README-images/covid-19-console.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
 <details>
-<summary>How it is presented on the website <strong>(Click dropdown for images)</summary>
+<summary>How it is presented on the website <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
 <img height="350" src="README-images/covid-19-table.png" style="max-width:100%;"></a>
 </p>
@@ -268,7 +268,7 @@ We were thought how to use the automatic testing framework <a href="https://jasm
 I loaded the website several times, and forced browser refresh to try and catch any errors but thankfully there was none. 
 
 <details>
-    <summary>Dev Tool Testing <strong>(Click dropdown for images)</summary>
+    <summary>Dev Tool Testing <strong>(Click dropdown for images)</strong></summary>
     <p align="center">
     <img height="350" src="README-images/dev-tools-tesing.jpg" style="max-width:100%;"></a>
     </p>
@@ -276,7 +276,7 @@ I loaded the website several times, and forced browser refresh to try and catch 
 
 I used <a href="JavaScript source code complies with coding rules." target="_blank">JSHint</a> to check if my javascript source code complied with coding rules. There were no major errors, just warnings about ES6 template literals because they are a modern standard. I also have warnings about '$' being undefined but this can also be ignored as it's the standard for selecting elements in JQuery.
 <details>
-<summary>Three JSHint Validating Test Results <strong>(Click dropdown for images)</summary>
+<summary>Three JSHint Validating Test Results <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
 <img height="350" src="README-images/jshint-covid-19.png" style="max-width:100%;"></a>
 </p>
@@ -291,7 +291,7 @@ I used <a href="JavaScript source code complies with coding rules." target="_bla
 I checked my website with the HTML <a href="https://validator.w3.org/" target="_blank">W3C Markup Validator</a> and it resulted in no errors. 
 
 <details>
-<summary>HTML Validator Test Results <strong>(Click dropdown for images)</summary>
+<summary>HTML Validator Test Results <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
 <img height="350" src="README-images/html-validator.png" style="max-width:100%;"></a>
 </p>
@@ -300,7 +300,7 @@ I checked my website with the HTML <a href="https://validator.w3.org/" target="_
 I uploaded my css to the <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validator </a> and again i had no errors.
 
 <details>
-<summary>CSS Validator Test Results <strong>(Click dropdown for images)</summary>
+<summary>CSS Validator Test Results <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
 <img height="350" src="README-images/validator-css.png" style="max-width:100%;"></a>
 </p>
@@ -309,7 +309,7 @@ I uploaded my css to the <a href="https://jigsaw.w3.org/css-validator/" target="
 I carried out extensive testing of the responsiveness of my website by checking how the website rendered on different devices and on lower screen widths.
 
 <details>
-<summary>Come to Cork - Ipad View <strong>(Click dropdown for images)</summary>
+<summary>Come to Cork - Ipad View <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
 <img height="350" src="README-images/responsive-ipad-hero.png" style="max-width:100%;"></a>
 </p>
@@ -325,7 +325,7 @@ I carried out extensive testing of the responsiveness of my website by checking 
 </details> 
 
 <details>
-<summary>Come to Cork - Iphone 6/7/8 view <strong>(Click dropdown for images)</summary>
+<summary>Come to Cork - Iphone 6/7/8 view <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
 <img height="350" src="README-images/responsive-mobile-hero.png" style="max-width:100%;"></a>
 </p>
@@ -352,7 +352,7 @@ I carried out extensive testing of the responsiveness of my website by checking 
 I carried out further testing on different devices and different browsers. I created a testing matrix in excel which outlines the various tests i made to ensure the Come to Cork website performed well across various devices and browsers. 
 
 <details>
-<summary>Testing Matrix <strong>(Click dropdown for images)</summary>
+<summary>Testing Matrix <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
 <img height="350" src="testing-matrix/testing-matrix.png" style="max-width:100%;"></a>
 </p>
@@ -379,74 +379,74 @@ I carried out further testing on different devices and different browsers. I cre
     * There is more iconic images in the "Why Visit Cork" section, especially the Cathedral photo and the Baltimore Beacon photo, these images allow the users to visualise what it would be like to visit Cork. 
     * The images for the "Why Visit Cork" section are removed from mobile view, as I felt there was too much content for mobile users, but i felt there was enough images in the hero image and the recommendation section to meet the needs of the user.
 
-<details>
-<summary>User Wanting Scenic Locations <strong>(Click dropdown for images)</strong></summary>
-<p align="center">
-<img height="350" src="README-images/user-stories-scenic-locations.png" style="max-width:100%;"></a>
-</p>
-</details> 
+        <details>
+        <summary>User Wanting Scenic Locations <strong>(Click dropdown for images)</strong></summary>
+        <p align="center">
+        <img height="350" src="README-images/user-stories-scenic-locations.png" style="max-width:100%;"></a>
+        </p>
+        </details> 
 
-<details>
-<summary>Enough Imagery in mobile without "Why Visit Cork" images <strong>(Click dropdown for images)</strong></summary>
-<p align="center">
-<img height="350" src="README-images/user-story-scenic-locations-mobile.png" style="max-width:100%;"></a>
-</p>
-<p align="center">
-<img height="350" src="README-images/user-story-scenic-locations-mobile2.png" style="max-width:100%;"></a>
-</p>
-</details> 
+        <details>
+        <summary>Enough Imagery in mobile without "Why Visit Cork" images <strong>(Click dropdown for images)</strong></summary>
+        <p align="center">
+        <img height="350" src="README-images/user-story-scenic-locations-mobile.png" style="max-width:100%;"></a>
+        </p>
+        <p align="center">
+        <img height="350" src="README-images/user-story-scenic-locations-mobile2.png" style="max-width:100%;"></a>
+        </p>
+        </details> 
 
 
 2. As a user I want to see the main attractions of Cork and what makes it different from the other cities in Ireland.
     * The "Why Visit Cork" section addressed this need as it explains some of the key attractions specific to Cork and what makes this city unique.
 
-<details>
-<summary>Why Visit Cork Section <strong>(Click dropdown for images)</strong></summary>
-<p align="center">
-<img height="350" src="README-images/screengrab-why-visit-cork.png" style="max-width:100%;"></a>
-</p>
-</details>
+        <details>
+        <summary>Why Visit Cork Section <strong>(Click dropdown for images)</strong></summary>
+        <p align="center">
+        <img height="350" src="README-images/screengrab-why-visit-cork.png" style="max-width:100%;"></a>
+        </p>
+        </details>
 
 3. As a user I want to see some recommended places to visit as a I don’t know Cork very well, and I want to know some of the locations a local person would go to.
     * The "Locals Guide to Cork" addresses this need as it recommends more locally known locations, that general tourist sites would be aware of. For example, the English Market maybe a famous attraction, but many people outside of Cork wouldn't know of the spectacular 360 degree view from climbing the steps of Shandon Tower. 
 
-<details>
-<summary>Local knowledge and recommendation<strong>(Click dropdown for images)</strong></summary>
-<p align="center">
-<img height="350" src="README-images/user-story-a-locals-guide.png" style="max-width:100%;"></a>
-</p>
-</details>
+        <details>
+        <summary>Local knowledge and recommendation<strong>(Click dropdown for images)</strong></summary>
+        <p align="center">
+        <img height="350" src="README-images/user-story-a-locals-guide.png" style="max-width:100%;"></a>
+        </p>
+        </details>
 
 4. As a user I want be able to plan my trip using a map so I have an idea of where everything Is and I can make itinerary.
     * The Google map addresses this need as it allows users to scroll around the City of Cork on the Map and bring up some of the hotels, bars, restaurants and tourist attractions placed on the map.
 
-<details>
-<summary>Google Map <strong>(Click dropdown for images)</strong></summary>
-<p align="center">
-<img height="350" src="README-images/screengrab-locals-guide.png" style="max-width:100%;"></a>
-</p>
-</details>
+        <details>
+        <summary>Google Map <strong>(Click dropdown for images)</strong></summary>
+        <p align="center">
+        <img height="350" src="README-images/screengrab-locals-guide.png" style="max-width:100%;"></a>
+        </p>
+        </details>
 
 5. As a user I want to know how many cases of Corona Virus there is in Ireland so I know whether it is safe to visit Cork or not
     * The Corona Virus API and the guidelines section are created on this website for this very reason. The guidelines section informs the user of the rules and regulations specific to Ireland and the table updates daily so users can evaluate the severity of the Virus in Ireland.
     * This section is included in the navbar, so users can jump straight to the table to see any updated figures or regulations.
 
-<details>
-<summary>Covid API and guidelines <strong>(Click dropdown for images)</strong></summary>
-<p align="center">
-<img height="350" src="README-images/screengrab-covid-section.png" style="max-width:100%;"></a>
-</p>
-</details>
+        <details>
+        <summary>Covid API and guidelines <strong>(Click dropdown for images)</strong></summary>
+        <p align="center">
+        <img height="350" src="README-images/screengrab-covid-section.png" style="max-width:100%;"></a>
+        </p>
+        </details>
 
 6. As a user I want to skip ahead of the 3second slide timer as I have seen enough of this image before and want to see what is next. 
     * We have all been in this situation where we want to skip ahead to another image, this is the reason i have placed the next and previous button on the left and right of the hero image. 
 
-<details>
-<summary>Next and Prev Button <strong>(Click dropdown for images)</strong></summary>
-<p align="center">
-<img height="350" src="README-images/user-story-button-prev-next.jpg" style="max-width:100%;"></a>
-</p>
-</details>
+        <details>
+        <summary>Next and Prev Button <strong>(Click dropdown for images)</strong></summary>
+        <p align="center">
+        <img height="350" src="README-images/user-story-button-prev-next.jpg" style="max-width:100%;"></a>
+        </p>
+        </details>
 
 
 

@@ -22,11 +22,12 @@
    <body>
     
       <header>
+      
          <div class="container-fluid navbar-container no-gutters">
             <nav class="navbar navbar-dark navbar-expand-lg">
-               <!-- BRAND AND LOGO-->
+                <!-- BRAND AND LOGO-->
                <a class="navbar-brand uppercase" href=""><img src="assets/images/dark_logo_transparent_background.png" alt="Come To Cork Logo" class="logo-small" width="120" height="75" /></a>
-               <!-- HAMBURGER MENU FOR SMALLER SCREEN WIDTHS-->
+                <!-- HAMBURGER MENU FOR SMALLER SCREEN WIDTHS-->
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler1" aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
@@ -50,8 +51,9 @@
             </nav>
          </div>
       </header>
+    
       
-      <!--HERO IMAGE-->
+      <!--HERO IMAGE CONTAINER-->
       <div class="container-fluid hero-container no-gutters" id="hero-section">
         <!--CAROUSEL SLIDER-->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
@@ -61,6 +63,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
+            <!--DIFFERENT HERO IMAGES-->
             <div class="carousel-inner">
                 <div class="carousel-item active" style="background-image: url('assets/images/hero-image1.jpg')">
                 <img src="assets/images/logo-cta.png" alt="image of port of Cork" class="logo-cta">
@@ -87,7 +90,7 @@
         </div>
       </div>
 
-      <!--WHY VISIT CORK SECTION-->
+       <!--WHY VISIT CORK SECTION-->
       <div class="container" id="why-visit-cork-container">
          <div class="row">
             <div class="col">
@@ -96,7 +99,7 @@
          </div>
          <div class="row">
             <!--HISTORY SECTION-->
-            <div class="col-12 col-md-6 why-cork-div" data-aos="zoom-in-right">
+            <div class="col-12 col-md-6 why-cork-div animated" data-aos="zoom-in-right">
                <h4 class="red-text">History <span class="d-inline d-md-none"><i class="fab fa-fort-awesome red-text"></i></span></h4>
                <p>
                   Built on an island enclosed by the River Lee, this ancient merchant city is steeped in history and
@@ -108,15 +111,15 @@
                   make you’ll feel a bit of Corks fascinating and turbulent History.
                </p>
             </div>
-            <div class="d-none d-md-block col-md-6">
+            <div class="d-none d-md-block col-md-6 padding-right-off">
                <img src="assets/images/st.finbarres-why-cork.jpg" alt="Image of st.Fin Barres Cathedral" data-aos="zoom-in-right" id="history-cork-img">
             </div>
 
             <!--FOOD CAPITAL SECTION-->
-            <div class="d-none d-md-block col-md-6">
+            <div class="d-none d-md-block col-md-6 padding-left-off">
                <img src="assets/images/english-market-why.jpg" alt="Image of the English Market" data-aos="zoom-in-left" class="margin-div" id="food-capital-img">
             </div>
-            <div class="col-12 col-md-6 why-cork-div margin-div" data-aos="zoom-in-left">
+            <div class="col-12 col-md-6 why-cork-div margin-div animated" data-aos="zoom-in-left">
                <h4 class="red-text">Irelands Food Capital <span class="d-inline d-md-none"><i class="fas fa-utensils red-text"></i></span></h4>
                <p>
                   Since the effects of the recession of 2008, Cork has revitalized itself as a vibrant city with a
@@ -135,7 +138,7 @@
             </div>
 
             <!--MUSIC SECTION-->
-            <div class="col-12 col-md-6 why-cork-div margin-div" data-aos="zoom-in-right">
+            <div class="col-12 col-md-6 why-cork-div margin-div animated" data-aos="zoom-in-right">
                <h4 class="red-text">Music & Culture <span class="d-inline d-md-none"><i class="fas fa-music red-text"></i></span></h4>
                <p>
                   Cork is a great city for the ‘craic’, with the pub at the heart of it. McCurtain Street,
@@ -155,15 +158,15 @@
                   scenes.
                </p>
             </div>
-            <div class="d-none d-md-block col-md-6">
+            <div class="d-none d-md-block col-md-6 padding-right-off">
                <img src="assets/images/irish-music.jpg" alt="Irish muscial instruments" data-aos="zoom-in-right" class="margin-div" id="irish-music-image">
             </div>
 
             <!--WILD ATLANTIC WAY SECTION-->
-            <div class="d-none d-md-block col-md-6">
+            <div class="d-none d-md-block col-md-6 padding-left-off">
                <img src="assets/images/baltimore.jpg" alt="Batimore Beacon West Cork" data-aos="zoom-in-left" class="margin-div"  id="baltimore-image">
             </div>
-            <div class="col-12 col-md-6 why-cork-div margin-div" data-aos="zoom-in-left">
+            <div class="col-12 col-md-6 why-cork-div margin-div animated" data-aos="zoom-in-left">
                <h4 class="red-text">The Wild Atlantic Way  <span class="d-inline d-md-none"><i class="fas fa-umbrella-beach red-text"></i></span></h4>
                <p>
                   Cork is Ireland’s Largest county, and it is not an exaggeration to claim it features one
@@ -220,6 +223,11 @@
                 
                   <!--HOTELS-->
                   <div id="lodging" class="locations active">
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="tab-panel-headings">Our Top 4 Picks</h5>
+                        </div>
+                    </div>
                      <div class="row">
                         <div class="col-12 col-md-6">
                            <a href="#river-lee" class="btn" data-toggle="collapse">
@@ -310,6 +318,11 @@
 
                   <!--BARS-->
                   <div id="bar" class="locations">
+                    <div class="row">
+                            <div class="col">
+                                <h5 class="tab-panel-headings">Our Top 4 Picks</h5>
+                            </div>
+                        </div>
                      <div class="row">
                         <div class="col-12 col-md-6">
                            <a href="#oval" class="btn" data-toggle="collapse">
@@ -399,6 +412,11 @@
 
                   <!--RESTAURANTS-->
                   <div id="restaurant" class="locations">
+                    <div class="row">
+                            <div class="col">
+                                <h5 class="tab-panel-headings">Our Top 4 Picks</h5>
+                            </div>
+                        </div>
                      <div class="row">
                         <div class="col-12 col-md-6">
                            <a href="#farmgate" class="btn" data-toggle="collapse">
@@ -491,6 +509,11 @@
 
                   <!--TOURIST ATTRACTIONS-->
                   <div id="tourist_attraction" class="locations">
+                    <div class="row">
+                            <div class="col">
+                                <h5 class="tab-panel-headings">Our Top 4 Picks</h5>
+                            </div>
+                        </div>
                      <div class="row">
                         <div class="col-12 col-md-6">
                            <a
@@ -600,7 +623,7 @@
          
          <!--COVID-19 API TABLE-->
          <div class="row">
-            <div class="col-12 col-md-4 order-second order-md-first table-col">
+            <div class="col-12 col-lg-4 order-second order-lg-first table-col">
                <table class="table">
                   <thead>
                      <tr>
@@ -620,7 +643,7 @@
             </div>
 
             <!--GUIDELINES-->
-            <div class="col-12 col-md-8 order-first order-md-second covid-guidelines">
+            <div class="col-12 col-lg-8 order-first order-lg-second covid-guidelines">
                <div class="jumbotron">
                   <div class="row">
                      <div class="col">

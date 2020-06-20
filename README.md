@@ -1,15 +1,17 @@
 <h1>Come To Cork</h1>
 
 I had the challenge of developing a dynamic front end project, with custom written Javascript, HTML and CSS code and consisting of one or more HTML pages.
-I have created a made up tourism site for domestic and international tourists planning a trip to Cork, Ireland. This website will use the Google maps API, so users can interact with the site and have a better understanding of where things are located.
-I also implemented a corona virus API, which allows potential visitors to get a live update on the number of cases and deaths in Ireland due to Covid-19. This will allow users to make an informed decision on whether it is safe to visit Ireland or not. 
-They will also be guided on the Government restrictions in place as every country differs In terms of the laws and regulations. 
+I have created a made up tourism site for domestic and international tourists planning a trip to Cork, Ireland. This website uses the Google maps API, so users can interact with the site and have a better understanding of where things are located.
+I also implemented a Coronavirus API, which allows potential visitors to get a live update on the number of cases and deaths in Ireland due to Covid-19. This allows users to make an informed decision on whether it is safe to visit Ireland or not. 
+They will also be guided on the Government restrictions in place as every country differs In terms of the laws and regulations surrounding Covid-19. 
+
+[view the live project here.](https://patrickcoakley23.github.io/milestone2-project/)
 
 <h2 align="center"><img src="README-images/responsive-header-image.png" max-width="50%"></h2>
 
 ## USER EXPERIENCE (UX)
 
-Consumers who are contemplating a potential trip away invest time in researching potential destinations through reviews, experiences content blogs and search engines. A holiday is experiential rather than materialistic so it's not an impulse decision in most cases. People want to know they are going to get a unique new experience on their next holiday. There is also a trend in tourism that visitors have a cultural appreication for hidden gems and living like a local. 
+Consumers who are contemplating a potential trip away, invest time in researching potential destinations, through reviews, experiences, content blogs and search engines. A holiday is experiential rather than materialistic, so in most cases it's not an impulse decision. People need assurance they are going to get a unique new experience on their next holiday. There is also a trend in tourism, where visitors have a cultural appreciation for hidden gems and living like a local. 
 I considered all of these factors and trends when designing my website. 
 
 The key goals for Come to Cork are:
@@ -39,7 +41,7 @@ The key goals for Come to Cork are:
     * Reason for the Corona Virus Api. 
 
     ### Wireframes 
-I used [Balsamic](https://balsamiq.com/) to build the wireframes. I created mockups for desktop, tablet and mobile viewports so i could have an idea of what my website would look like and a plan i could follow to avoid scope creep.
+I used [Balsamic](https://balsamiq.com/) to build the wireframes. I created mockups for desktop, tablet and mobile viewports, so i could have an idea of what my website would look like, and i could follow a plan to avoid scope creep.
 
 
 <details>
@@ -82,11 +84,11 @@ I used <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> to buil
 
 ### Colour Scheme
 
-<b>Red</b> Red is the most imposing and dominate colour on the Come To Cork website. As you can see from my wireframes, i initially planned on using red even more as the main background colour, however i later felt red is a very powerful and imposing colour and too much of it could distract the reader and make it unreadable. Red is the colour associated with county cork so it had to be the main colour of the website. I used a dark red as i felt brighter colours cheapened the brand and website. I feel i got the right combination of attention getting and exciting red paired with a white background and font. 
+**Red** - is the most imposing and dominate colour on the Come To Cork website. As you can see from my wireframes, i initially planned on using even more red than in the finished website. I felt red is a very powerful and imposing colour and too much of it could distract the reader and make it unreadable. Red is the colour associated with Cork, and for this reason i felt it had to be the main colour of the website. I used a dark red as i felt brighter reds cheapened the brand and the website. I feel i got the right combination of attention getting and exciting red paired with a white background and font. 
 
-<b>White</b> As mentioned above, the white was used to give the red a softer feel in places. I wanted to go for a clean look and I also feel it fits well, too much colors could be overpowering and distract the user from the key information 
+**White** - As mentioned above, the white was used to give the red a softer feel. I wanted to go for a clean look and I also feel it fits well. Too much colors could be overpowering and distract the user from the key information 
 
-<b>Charcoal</b> – I used a charcoal background in the ‘Covid 19 Update’ section. The Charcoal section adds a sense of change to the page and also gives a modern feel when paired with the burlywood and softer red coloured font. 
+**Charcoal** – I used a charcoal background in the ‘Covid 19 Update’ section. The Charcoal section adds a sense of change to the page and also gives a modern feel when paired with the burlywood and softer red coloured font. 
 
 #### List of all the colours used throughout the website: 
 * #9D1821 Main dark red used.
@@ -103,7 +105,7 @@ I used <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> to buil
 The “Montserrat” font is the font used for all the headings and the “Lora” font is the font used for the body of the website. Sans serif and serif are set as the fallback font in case for any reason the font isn't being imported into the site correctly.
 
 ### Imagery 
-Imagery is a reoccurring theme throughout the website. I felt images played a vital role in influencing a users decision in choosing a holiday destination, and it allows people place themselves in a particular place without being there. 
+Imagery is a reoccurring theme throughout the website. I felt images played a vital role in influencing a users decision in choosing a holiday destination, and it allows people to place themselves in a particular place without being there. 
 The Hero image especially works well in drawing the user in and given the website a very modern feel.
 
 ## FEATURES
@@ -113,18 +115,18 @@ The Hero image especially works well in drawing the user in and given the websit
 The hero images include some iconic locations in Cork, like st.Fin Barre's Cathedral, the port of Cork and the Blarney Castle. I created a logo for the brand using <a href="https://www.tailorbrands.com/" target="_blank">Tailor Brands</a>. In my opinion, its clean looking, eye catching and fits well with the theme of the website and the tourism industry.
 
     <details>
-    <summary>Hero Image</summary>
+    <summary>Hero Image <strong>(Click dropdown for images)</strong></summary>
     <p align="center">
-    <img height="350" src="README-files/images/screengrab-hero-image.png" style="max-width:100%;"></a>
+    <img height="350" src="README-images/screengrab-hero-image.png" style="max-width:100%;"></a>
     </p>
     </details>
 
 ### Why Visit Cork
-*   I considered visual hierarchy and I felt this section was best placed as the most immediate section after the hero image, as it allows to get a feel for Cork and become more aware of the unique selling points of Cork City. I supported each column of information with a related image which gives each subsection more importance and more of a 'wow' factor. 
+*   I considered visual hierarchy and I felt this section was best placed as the most immediate section after the hero image, as it allows the user to get a feel for Cork and become more aware of the unique selling points of Cork City. I supported each column of information with a related image which gives each subsection more importance and more of a 'wow' factor. 
 * Included in this section is a sliding effect plugin from <a href="https://michalsnik.github.io/aos/" target="_blank">AOS</a>, as it gives a sense of change and animation to the section.
 
    <details>
-    <summary>Why Visit Cork Section <strong>(Click dropdown for images)</summary>
+    <summary>Why Visit Cork Section <strong>(Click dropdown for images)</strong></summary>
     <p align="center">
     <img height="350" src="README-images/screengrab-why-visit-cork.png" style="max-width:100%;"></a>
     </p>
@@ -139,7 +141,7 @@ The hero images include some iconic locations in Cork, like st.Fin Barre's Cathe
 
 ### A Locals Guide 
 *   This section is the main interactive section for the user. The Google Map api is included in this section and allows users to scroll through different places in Cork and when they click the location markers information pertaining to that location appears. 
-*   Beside the map is the tab panel widget which was built using <a href="https://jquery.com/" target="_blank">JQuery</a>. Whenever the user clicks the sections within the tab panel i.e hotels, bars, restaurant or tourist attractions, locations associated to this business categories appear on the map. I have listed four locations under each section as they are local recommendations and meets the needs of consumers wanting to experience hidden gems and living like the locals.
+*   Beside the map is the tab panel widget which was built using <a href="https://jquery.com/" target="_blank">JQuery</a>. Whenever the user clicks the sections within the tab panel (i.e hotels, bars, restaurant or tourist attractions) locations associated to these business categories appear on the map. I have listed four locations under each section as they are local recommendations and meet the needs of consumers, wanting to experience hidden gems and living like the locals.
 
     <details>
     <summary>A Locals Guide <strong>(Click dropdown for images)</summary>
@@ -159,7 +161,7 @@ I altered the order in which they are presented for mobile view, as the user get
     </details> 
 
 ### COVID-19 Update
-* During these uncertain times i felt it was necessary to reassure them with any concerns they may have with travelling during Covid-19. Included some government guidelines so users can be better prepared and i also included an api which uses the <a href="https://coronavirus.jhu.edu/map.html" target="_blank">John Hopkins Coronavirus Resource</a> to include figures of cases specific to Ireland which updates daily. 
+* During these uncertain times i felt it was necessary to reassure tourists with any concerns they may have with travelling during Covid-19. I Included some government guidelines so users can be better prepared, and there is an api which uses the <a href="https://coronavirus.jhu.edu/map.html" target="_blank">John Hopkins Coronavirus Resource</a> to include figures of cases specific to Ireland which updates daily. 
 
     <details>
     <summary>Covid-19 Section <strong>(Click dropdown for images)</summary>
@@ -190,14 +192,14 @@ When the page first loads the google maps renders markers for hotels in Cork Cit
 I was hoping to make the google maps more dynamic by adding more information about each location. The documentation for Google Maps Places,(as shown in the first image below) states there is plenty of details you can upload from the API, but Unfortunately a number of key details i would have liked to include like: 'Url', 'website', 'formatted phone number', 'price level' and 'review' were missing in the JSON file when i pulled up the API (as seen in the second image below).
 
 <details>
-<summary>Place Details Documentation</summary>
+<summary>Place Details Documentation ) <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
 <img height="350" src="README-images/google-documentation.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
 <details>
-<summary>Missing Details (Blarney Castle Hotel example) <strong>(Click dropdown for images)</summary>
+<summary>Missing Details (Blarney Castle Hotel example) <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
 <img height="350" src="README-images/google-json.png" style="max-width:100%;"></a>
 </p>
@@ -262,17 +264,17 @@ I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.
     -  The Scrolling effect in the Why Come to Cork section used a plugin from this library.
         
 ## TESTING
-We were thought how to the automatic testing framework <a href="https://jasmine.github.io/" target="_blank"> Jasmine</a> as part of Interactive Front End module, but we were told we didn't have to implement it in our projects as there is limitations with its testing and they're in the process of switching testing frameworks. I therefore carried out manuel testing and document any errors/random side-effects captured in the DevTools.
+We were thought how to use the automatic testing framework <a href="https://jasmine.github.io/" target="_blank"> Jasmine</a> as part of Interactive Front End module, but we were told we didn't have to implement it in our projects as there is limitations with its testing and they're in the process of switching testing frameworks. I therefore carried out manuel testing and documented any errors/random side-effects captured in the DevTools.
 I loaded the website several times, and forced browser refresh to try and catch any errors but thankfully there was none. 
 
 <details>
     <summary>Dev Tool Testing <strong>(Click dropdown for images)</summary>
     <p align="center">
-    <img height="350" src="README-images/images/dev-tools-tesing.jpg" style="max-width:100%;"></a>
+    <img height="350" src="README-images/dev-tools-tesing.jpg" style="max-width:100%;"></a>
     </p>
     </details> 
 
-I used <a href="JavaScript source code complies with coding rules." target="_blank">JSHint</a> to check if my javascript source code complied with coding rules. Thank god there were major warnings just warnings about ES6 template literals because they are a modern standard and i also have warnings about '$' being undefined but this is can also be ignored as it's the standard for selecting elements in JQuery.
+I used <a href="JavaScript source code complies with coding rules." target="_blank">JSHint</a> to check if my javascript source code complied with coding rules. There were no major errors, just warnings about ES6 template literals because they are a modern standard. I also have warnings about '$' being undefined but this can also be ignored as it's the standard for selecting elements in JQuery.
 <details>
 <summary>Three JSHint Validating Test Results <strong>(Click dropdown for images)</summary>
 <p align="center">
@@ -298,13 +300,13 @@ I checked my website with the HTML <a href="https://validator.w3.org/" target="_
 I uploaded my css to the <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validator </a> and again i had no errors.
 
 <details>
-<summary>HTML Validator Test Results <strong>(Click dropdown for images)</summary>
+<summary>CSS Validator Test Results <strong>(Click dropdown for images)</summary>
 <p align="center">
 <img height="350" src="README-images/validator-css.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
-I carried out extensive testing of the responsiveness of my mobile by checking how the website rendered on different devices and and lower screen widths.
+I carried out extensive testing of the responsiveness of my website by checking how the website rendered on different devices and on lower screen widths.
 
 <details>
 <summary>Come to Cork - Ipad View <strong>(Click dropdown for images)</summary>
@@ -312,13 +314,13 @@ I carried out extensive testing of the responsiveness of my mobile by checking h
 <img height="350" src="README-images/responsive-ipad-hero.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-images/responsive-why-visit-cork.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-ipad-why-visit-cork.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-images/responsive-locals-guide.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-ipad-locals-guide.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-images/responsive-covid.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/responsive-ipad-covid.png" style="max-width:100%;"></a>
 </p>
 </details> 
 
@@ -377,34 +379,87 @@ I carried out further testing on different devices and different browsers. I cre
     * There is more iconic images in the "Why Visit Cork" section, especially the Cathedral photo and the Baltimore Beacon photo, these images allow the users to visualise what it would be like to visit Cork. 
     * The images for the "Why Visit Cork" section are removed from mobile view, as I felt there was too much content for mobile users, but i felt there was enough images in the hero image and the recommendation section to meet the needs of the user.
 
+<details>
+<summary>User Wanting Scenic Locations <strong>(Click dropdown for images)</strong></summary>
+<p align="center">
+<img height="350" src="README-images/user-stories-scenic-locations.png" style="max-width:100%;"></a>
+</p>
+</details> 
+
+<details>
+<summary>Enough Imagery in mobile without "Why Visit Cork" images <strong>(Click dropdown for images)</strong></summary>
+<p align="center">
+<img height="350" src="README-images/user-story-scenic-locations-mobile.png" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img height="350" src="README-images/user-story-scenic-locations-mobile2.png" style="max-width:100%;"></a>
+</p>
+</details> 
+
+
 2. As a user I want to see the main attractions of Cork and what makes it different from the other cities in Ireland.
     * The "Why Visit Cork" section addressed this need as it explains some of the key attractions specific to Cork and what makes this city unique.
 
+<details>
+<summary>Why Visit Cork Section <strong>(Click dropdown for images)</strong></summary>
+<p align="center">
+<img height="350" src="README-images/screengrab-why-visit-cork.png" style="max-width:100%;"></a>
+</p>
+</details>
 
 3. As a user I want to see some recommended places to visit as a I don’t know Cork very well, and I want to know some of the locations a local person would go to.
     * The "Locals Guide to Cork" addresses this need as it recommends more locally known locations, that general tourist sites would be aware of. For example, the English Market maybe a famous attraction, but many people outside of Cork wouldn't know of the spectacular 360 degree view from climbing the steps of Shandon Tower. 
 
+<details>
+<summary>Local knowledge and recommendation<strong>(Click dropdown for images)</strong></summary>
+<p align="center">
+<img height="350" src="README-images/user-story-a-locals-guide.png" style="max-width:100%;"></a>
+</p>
+</details>
+
 4. As a user I want be able to plan my trip using a map so I have an idea of where everything Is and I can make itinerary.
     * The Google map addresses this need as it allows users to scroll around the City of Cork on the Map and bring up some of the hotels, bars, restaurants and tourist attractions placed on the map.
+
+<details>
+<summary>Google Map <strong>(Click dropdown for images)</strong></summary>
+<p align="center">
+<img height="350" src="README-images/screengrab-locals-guide.png" style="max-width:100%;"></a>
+</p>
+</details>
 
 5. As a user I want to know how many cases of Corona Virus there is in Ireland so I know whether it is safe to visit Cork or not
     * The Corona Virus API and the guidelines section are created on this website for this very reason. The guidelines section informs the user of the rules and regulations specific to Ireland and the table updates daily so users can evaluate the severity of the Virus in Ireland.
     * This section is included in the navbar, so users can jump straight to the table to see any updated figures or regulations.
 
+<details>
+<summary>Covid API and guidelines <strong>(Click dropdown for images)</strong></summary>
+<p align="center">
+<img height="350" src="README-images/screengrab-covid-section.png" style="max-width:100%;"></a>
+</p>
+</details>
+
 6. As a user I want to skip ahead of the 3second slide timer as I have seen enough of this image before and want to see what is next. 
     * We have all been in this situation where we want to skip ahead to another image, this is the reason i have placed the next and previous button on the left and right of the hero image. 
+
+<details>
+<summary>Next and Prev Button <strong>(Click dropdown for images)</strong></summary>
+<p align="center">
+<img height="350" src="README-images/user-story-button-prev-next.jpg" style="max-width:100%;"></a>
+</p>
+</details>
+
 
 
 ## DEPLOYMENT 
 I first set up my repository on Github. Github is a hosting platform which stores and presents my code. After creating a repository on github i click the green 'Gitpod' button which opens my repository in Gitpod. I don't ever create projects directly in Gitpod, i create them in Github, and use the green button to open my project and begin coding.
-Gitpod is an IDE (integrated development environment) that allows for software development. It's important when i create a new html file in Gitpod that i name my default file index.html as the server looks for this and loads this page automatically. Once i have inserted some code i can run my page in the browser and within seconds, which allows me to view the web version of my page. Gitpod is where i develop my project, write code and complete debugging issues. An important note, after i have created the repo in Github, we then open the repository each time from Gitpod homepage, which shows us our most recent workspaces. If we were to click the green button in Github every time, this would just create a new version of our repository each time.
-In Gitpod, the next step is to commit any significant work and push it to Github. Once in Github, i follow the steps below on how deploy my project. This is where the website goes 'live' and any users who have a link to my project were are to view the site. 
+Gitpod is an IDE (integrated development environment) that allows for software development. It's important when i create a new html file in Gitpod that i name my default file index.html as the server looks for this and loads this page automatically. Once i have inserted some code i can run my page in the browser and within seconds, i can view the web version of my page. Gitpod is where i develop my project, write code and complete debugging issues. An important note, after i have created the repo in Github, I then open the repository each time from Gitpod homepage, which shows me my most recent workspaces. If I were to click the green button in Github every time, this would just create a new version of my repository each time.
+In Gitpod, the next step is to commit any significant work and push it to Github. Once in Github, i follow the steps below on how deploy my project. This is where the website goes 'live' and any users who have a link to my project are able to view the site. 
 
 ### GitHub Pages
    
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the <a href="https://github.com/PatrickCoakley23/milestone2-project" target="_blank">PatrickCoakley23/milestone-project</a>
+1. Log in to GitHub and locate the <a href="https://github.com/PatrickCoakley23/milestone2-project" target="_blank">PatrickCoakley23/milestone2-project</a>
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
@@ -454,9 +509,9 @@ The project was deployed to GitHub Pages using the following steps...
 - General lines from <a href="https://github.com/Code-Institute-Solutions/SampleREADME" target="_blank">Code Institutes Sample README</a> were used in this README file, for example the 'Deployment' section and the 'Making a Clone' section.
 
 ## ACKNOWLEDGEMENTS
-- My mentor, <a href="https://github.com/precious-ijege" target="_blank"> Precious Ijege</a>was a great help. The three mentor sessions were invaluable. He explained every suggestion in a clear concise manner, and pointed out bugs i would never have seen.
+- My mentor, <a href="https://github.com/precious-ijege" target="_blank"> Precious Ijege</a> was a great help. The three mentor sessions were invaluable. He explained every suggestion in a clear concise manner, and pointed out bugs i would never have seen.
 
 -  My tutor, <a href="https://github.com/armedcor" target="_blank">Cormac Lawlor</a> was very supportive during the project. Being a past student himself, he was aware of certain issues i was facing and was always at hand to offer support. 
 
-- <a href="https://www.linkedin.com/in/brian-o-grady-18a2153/?originalSubdomain=ie" target="_blank">Brian O' Grady</a> and <a href="https://www.linkedin.com/in/mattrudge73/" target="_blank">Matt Rudge's</a> as the course content great was a great aid in developing my website. 
+- <a href="https://www.linkedin.com/in/brian-o-grady-18a2153/?originalSubdomain=ie" target="_blank"> Brian O' Grady</a> and <a href="https://www.linkedin.com/in/mattrudge73/" target="_blank">Matt Rudge's</a> as the course content great was a great aid in developing my website. 
 

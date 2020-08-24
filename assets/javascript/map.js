@@ -19,7 +19,7 @@ function initMap() {
 		location: cork,
 		radius: 30000,
 		types: ["lodging"],
-		fields: ["name", "formatted_addres", "photo", "url", "formatted_phone_number", "price_level", "rating", "review", "website"]
+		fields: ["name", "formatted_address", "photo", "url", "formatted_phone_number", "price_level", "rating", "review", "website"]
 	};
 	infowindow = new google.maps.InfoWindow();
 
@@ -87,34 +87,3 @@ function initialize(placeType) {
 	service.nearbySearch(request, callback);
 }
 
-//for loop to create markers
-function callback(results, status) {
-	if (status == google.maps.places.PlacesServiceStatus.OK) {
-		for (var i = 0; i < results.length; i++) {
-			createMarker(results[i]);
-		}
-	}
-}
-
-//place information when marker is clicked]
-function createMarker(place) {
-	var placeLoc = place.geometry.location;
-	var marker = new google.maps.Marker({
-		map: map,
-		position: place.geometry.location
-	});
-	google.maps.event.addListener(marker, "click", function () {
-		infowindow.setContent(`<div>
-        <img src="${place.photos[0].getUrl({'maxWidth': 200, 'maxHeight': 140})}" alt=""><br>
-        <strong>${place.name}</strong><br>
-        <strong>Rating:</strong> ${place.rating}<br>
-         ${place.vicinity}<br>
-         ${place.types[0]}<br>
-        <a href="https://www.google.com/maps/place/?q=place_id:${place.place_id}" target="_blank">View on Google Maps</a> 
-         </div> `
-
-		);
-		infowindow.open(map, this);
-	});
-
-}

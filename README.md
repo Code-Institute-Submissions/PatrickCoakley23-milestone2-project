@@ -1,6 +1,6 @@
 <h1>Come To Cork</h1>
 
-I had the challenge of developing a dynamic front end project, with custom written Javascript, HTML and CSS code and consisting of one or more HTML pages.
+I had the challenge of developing a dynamic front end project with custom written Javascript, HTML and CSS code and consisting of one or more HTML pages.
 I have created a made up tourism site for domestic and international tourists planning a trip to Cork, Ireland. This website uses the Google maps API, so users can interact with the site and have a better understanding of where things are located.
 I also implemented a Coronavirus API, which allows potential visitors to get a live update on the number of cases and deaths in Ireland due to Covid-19. This allows users to make an informed decision on whether it is safe to visit Ireland or not. 
 They will also be guided on the Government restrictions in place as every country differs In terms of the laws and regulations surrounding Covid-19. 
@@ -11,25 +11,25 @@ They will also be guided on the Government restrictions in place as every countr
 
 ## USER EXPERIENCE (UX)
 
-Consumers who are contemplating a potential trip away, invest time in researching potential destinations, through reviews, experiences, content blogs and search engines. A holiday is experiential rather than materialistic, so in most cases it's not an impulse decision. People need assurance they are going to get a unique new experience on their next holiday. There is also a trend in tourism, where visitors have a cultural appreciation for hidden gems and living like a local. 
+Consumers who are contemplating a potential trip away, invest time in researching potential destinations, through reviews, experiences, content blogs and search engines. A holiday is experiential rather than materialistic, so in most cases it's not an impulse decision. People need assurances that they are going to get a unique new experience on their next holiday. There is also a trend in tourism, where visitors have a cultural appreciation for hidden gems and living like a local. 
 I considered all of these factors and trends when designing my website. 
 
 The key goals for Come to Cork are:
  
 1. Promote Cork City as a tourist destination.
 
-2. Allow users/potential city break tourists to make an informed decision and include cork as part of their consideration set when thinking of a city break away. 
+2. Allow users/potential city break tourists to make an informed decision and to include cork as part of their consideration set when thinking of a city break away. 
 
     ### User Stories
 
 *   As a user I want to see some images of the scenic locations I may visit when arriving in Cork. 
     * This is the reason for the eye catching Hero image with the image slider. This will showcase some high quality photos of cork which will slide every 5 seconds. 
 
-*   As a user I want to skip ahead of the 3second slide timer as I have seen enough of this image.
-    * The reason for inserting a button the left and right of the hero image, so the user can interact with the page. 
+*   As a user I want to skip ahead of the 3 second slide timer as I have seen enough of this image.
+    * The reason for inserting a button to the left and right of the hero image, so the user can interact with the page. 
 
 *   As a user I want to see the main attractions of Cork and what makes it different from the other cities in Ireland. 
-    * 	The reason for the “why visit Cork” section which will give a brief description of its history, food culture, famous locations and social life. 
+    * 	The reason for the “Why Visit Cork” section which will give a brief description of its history, food culture, famous locations and social life. 
 
 *   As a user I want to see some recommended places to visit as a I don’t know Cork very well, and I want to know some of the locations a local person would go to.
     *   Reason for the tab panel beside the map which gives bar, hotel, restaurant and other tourist recommendations.
@@ -86,9 +86,10 @@ I used <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> to buil
 
 ### Colour Scheme
 
-**Red** - is the most imposing and dominate colour on the Come To Cork website. As you can see from my wireframes, i initially planned on using even more red than in the finished website. I felt red is a very powerful and imposing colour and too much of it could distract the reader and make it unreadable. Red is the colour associated with Cork, and for this reason i felt it had to be the main colour of the website. I used a dark red as i felt brighter reds cheapened the brand and the website. I feel i got the right combination of attention getting and exciting red paired with a white background and font. 
+**Red** - is the most imposing and dominant colour on the Come To Cork website. As you can see from my wireframes, i initially planned on using more red than in the finished website. I felt red is a very powerful and imposing colour and too much of it could distract the reader and make it unreadable. 
+Red is the colour associated with Cork, and for this reason i felt it had to be the main colour of the website. I used a dark red as i felt a brighter red could cheapen the brand and the website. I feel i got the right combination of attention getting and exciting red paired with a white background and font. 
 
-**White** - As mentioned above, the white was used to give the red a softer feel. I wanted to go for a clean look and I also feel it fits well. Too much colors could be overpowering and distract the user from the key information 
+**White** - As mentioned above, the white was used to give the red a softer feel. I wanted to go for a clean look as too much colors could be overpowering and distract the user from the key information 
 
 **Charcoal** – I used a charcoal background in the ‘Covid 19 Update’ section. The Charcoal section adds a sense of change to the page and also gives a modern feel when paired with the burlywood and softer red coloured font. 
 
@@ -107,14 +108,14 @@ I used <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> to buil
 The “Montserrat” font is the font used for all the headings and the “Lora” font is the font used for the body of the website. Sans serif and serif are set as the fallback font in case for any reason the font isn't being imported into the site correctly.
 
 ### Imagery 
-Imagery is a reoccurring theme throughout the website. I felt images played a vital role in influencing a users decision in choosing a holiday destination, and it allows people to place themselves in a particular place without being there. 
+Imagery is a reoccurring theme throughout the website. I felt images played a vital role in influencing a users decision in choosing a holiday destination, as it allows people to place themselves in a particular place without being there. 
 The Hero image especially works well in drawing the user in and given the website a very modern feel.
 
 ## FEATURES
 
 ### Hero Image
-* The Landing page sets the theme for the layout of the entire website. There is an eye catching hero image, which is clean looking. The hero image uses a <a href="https://getbootstrap.com/docs/4.5/components/carousel/" target="_blank">bootstrap carousel</a> to slide every 5 seconds. The user also has the option to skip ahead with a 'next' and 'previous' button.
-The hero images include some iconic locations in Cork, like st.Fin Barre's Cathedral, the port of Cork and the Blarney Castle. I created a logo for the brand using <a href="https://www.tailorbrands.com/" target="_blank">Tailor Brands</a>. In my opinion, its clean looking, eye catching and fits well with the theme of the website and the tourism industry.
+* The Landing page sets the theme for the layout of the entire website. The hero image uses a [Bootstrap carousel](https://getbootstrap.com/docs/4.5/components/carousel/) to slide every 5 seconds. The user also has the option to skip ahead with a 'next' and 'previous' button.
+The hero images include some iconic locations in Cork, like st.Fin Barre's Cathedral, the port of Cork and the Blarney Castle. I created a logo for the brand using [Tailor Brands](https://www.tailorbrands.com/Tailor). In my opinion, it's clean looking, eye catching and fits well with the theme of the website and the tourism industry.
 
     <details>
     <summary>Hero Image <strong>(Click dropdown for images)</strong></summary>
@@ -124,8 +125,8 @@ The hero images include some iconic locations in Cork, like st.Fin Barre's Cathe
     </details>
 
 ### Why Visit Cork
-*   I considered visual hierarchy and I felt this section was best placed as the most immediate section after the hero image, as it allows the user to get a feel for Cork and become more aware of the unique selling points of Cork City. I supported each column of information with a related image which gives each subsection more importance and more of a 'wow' factor. 
-* Included in this section is a sliding effect plugin from <a href="https://michalsnik.github.io/aos/" target="_blank">AOS</a>, as it gives a sense of change and animation to the section.
+*   I considered visual hierarchy here and I felt this section was best placed as the most immediate section after the hero image. This section allows the user to get a feel for Cork and become more aware of the unique selling points of Cork City. I supported each column of information with a related image to make it easier to read. 
+* Included in this section is a sliding effect plugin from [AOS](https://michalsnik.github.io/aos/), as it gives a sense of change and animation to the section.
 
    <details>
     <summary>Why Visit Cork Section <strong>(Click dropdown for images)</strong></summary>
@@ -133,7 +134,7 @@ The hero images include some iconic locations in Cork, like st.Fin Barre's Cathe
     <img height="350" src="README-images/screengrab-why-visit-cork.png" style="max-width:100%;"></a>
     </p>
     </details>
-* **Responsive alterations** - For displays smaller than 768px width the sections are stacked on top of each other and the images are no longer displayed.Two of the images(GAA and the Stacked image) are hidden from mobile view. In the absence of the images, Icons from font awesome are introduced to add a sense of fun to the page.
+* **Responsive alterations** - For screen sizes smaller than 768px wide the sections are stacked on top of each other and the images are no longer displayed.Two of the images (GAA and the Stacked image) are hidden from mobile view. In the absence of the images, Icons from font awesome are introduced to add a sense of fun to the page.
     <details>
     <summary>Responsive Changes <strong>(Click dropdown for images)</strong></summary>
     <p align="center">
@@ -142,8 +143,8 @@ The hero images include some iconic locations in Cork, like st.Fin Barre's Cathe
     </details> 
 
 ### A Locals Guide 
-*   This section is the main interactive section for the user. The Google Map api is included in this section and allows users to scroll through different places in Cork and when they click the location markers information pertaining to that location appears. 
-*   Beside the map is the tab panel widget which was built using <a href="https://jquery.com/" target="_blank">JQuery</a>. Whenever the user clicks the sections within the tab panel (i.e hotels, bars, restaurant or tourist attractions) locations associated to these business categories appear on the map. I have listed four locations under each section as they are local recommendations and meet the needs of consumers, wanting to experience hidden gems and living like the locals.
+*   This section is the main interactive section for the user. The Google Map API is included in this section and allows users to scroll through different places in Cork. When the user clicks the location markers on the map, information pertaining to that location appears. 
+*   Beside the map is the tab panel widget which was built using [JQuery](ttps://jquery.com/). Whenever the user clicks the sections within the tab panel (i.e hotels, bars, restaurant or tourist attractions) locations associated to these business categories appear on the map. I have listed four locations under each section as they are local recommendations and meet the needs of consumers, wanting to experience hidden gems and living like the locals.
 
     <details>
     <summary>A Locals Guide <strong>(Click dropdown for images)</strong></summary>
@@ -163,7 +164,7 @@ I altered the order in which they are presented for mobile view, as the user get
     </details> 
 
 ### COVID-19 Update
-* During these uncertain times i felt it was necessary to reassure tourists with any concerns they may have with travelling during Covid-19. I Included some government guidelines so users can be better prepared, and there is an api which uses the <a href="https://coronavirus.jhu.edu/map.html" target="_blank">John Hopkins Coronavirus Resource</a> to include figures of cases specific to Ireland which updates daily. 
+* During these uncertain times, I felt it was necessary to inform tourists about the numbers of Covid-19 in Ireland and the rules and regulations surrounding Covid-19. I Included some government guidelines so users can be better prepared, and there is an api which uses the <a href="https://coronavirus.jhu.edu/map.html" target="_blank">John Hopkins Coronavirus Resource</a> to include figures of cases specific to Ireland which updates daily. 
 
     <details>
     <summary>Covid-19 Section <strong>(Click dropdown for images)</strong></summary>
@@ -188,10 +189,10 @@ For this milestone project i was tasked with implementing at least one API which
 The API's i implimented on the Come To Cork website are the Google Maps API which allows users to select and search relevant hotels, restaurants, tourist attractions and bars in Cork City. I also included a Corona Virus API which updates daily and gives figures related to Ireland only.
 
 ### Google Maps Api
-I followed the <a href="https://developers.google.com/maps/documentation/javascript/importing_data" target="_blank"> Google Documentation</a> to render my map on my website. I used <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">javascript</a> functions to upload the map centered in Cork City by including the city's latitude and longitude. The markers are applied by incuding the <a href="https://developers.google.com/places/web-service/details" target="_blank">Google Places</a> library and using a javascript event listener to render the specific information related to that location when a user clicks on the marker. 
+I followed the <a href="https://developers.google.com/maps/documentation/javascript/importing_data" target="_blank"> Google Documentation</a> to render my map on my website. I used <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">javascript</a> functions to upload the map centered in Cork City by including the city's latitude and longitude. The markers are applied by including the <a href="https://developers.google.com/places/web-service/details" target="_blank">Google Places</a> library and using a javascript event listener to render the specific information related to that location. 
 When the page first loads the google maps renders markers for hotels in Cork City. I added a <a href="https://jquery.com/" target="_blank">JQuery</a> click event which loads markers specific to each category(bars/restaurants/tourist-attraction/hotels) when the tab panel is clicked. 
 
-I was hoping to make the google maps more dynamic by adding more information about each location. The documentation for Google Maps Places,(as shown in the first image below) states there is plenty of details you can upload from the API, but Unfortunately a number of key details i would have liked to include like: 'Url', 'website', 'formatted phone number', 'price level' and 'review' were missing in the JSON file when i pulled up the API (as seen in the second image below).
+I was hoping to make the google maps more dynamic by adding more information about each location. The documentation for Google Maps Places,(as shown in the first image below) states there is plenty of details you can upload from the API. Unfortunately a number of key details i would have liked to include like: 'Url', 'website', 'formatted phone number', 'price level' and 'review' were missing in the JSON file when i pulled up the API (as seen in the second image below).
 
 <details>
 <summary>Place Details Documentation ) <strong>(Click dropdown for images)</strong></summary>
@@ -208,7 +209,7 @@ I was hoping to make the google maps more dynamic by adding more information abo
 </details> 
 
 ### Covid 19 Api
-I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#7934d316-f751-4914-9909-39f1901caeb8" target="_none">Covid 19 API</a> which is in JSON format in the first image below, and i then used the Jquery prepend function and CSS styling to present data in a HTML table and is rendered on the website for the user.
+I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#7934d316-f751-4914-9909-39f1901caeb8" target="_none">Covid 19 API</a> which is in JSON format in the first image below. I then used the Jquery prepend function and CSS styling to present data in a HTML table and is rendered on the website for the user.
 
 <details>
 <summary>Covid 19 data in JSON <strong>(Click dropdown for images)</strong></summary>
@@ -225,9 +226,9 @@ I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.
 </details> 
 
 ### Future Implementation 
-1. **Events** - If i had more time i would include a section with upcoming events, from summer festivals, concerts to the world famous Guinness jazz festival. It would be great if their was an api that updated this, if not i would updated it manually maybe once a fortnight. This would give users more of a reason to visit Cork and would allow them to plan on the best time to visit.
-2. **Booking Hotels** - Unfortunately the <a href="https://www.booking.com/index.en-gb.html?label=gen173nr-1BCAEoggI46AdIM1gEaGmIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AuTasfcFwAIB0gIkMGI0NDRiZmUtZWY5ZS00OWMzLThlNzgtNTQzY2VhZjgwNzEw2AIF4AIB;sid=4a060d129a8dad61eaedc85866f5450e;keep_landing=1&sb_price_type=total&" target="_blank">Booking.com</a> API is restricted but if i got access to it, it would be improve the website as users wouldn't have to leave the website to make a booking. 
-3. **Contact Page** - In the future I plan to implement a contact form which allows users the medium to contact me so they could offer recommendations on places i should include on the website, or possible partnerships or collaborations with tourist related businesses. 
+1. **Events** - If i had more time i would include a section with upcoming events, from summer festivals, concerts to the world famous Guinness jazz festival. It would be great if there was an api that updated this, if not i would update it manually maybe once a fortnight. This would give users more of a reason to visit Cork and it would allow them to better plan the time of year they visit.
+2. **Booking Hotels** - Unfortunately the [Booking.com]( https://www.booking.com/index.en-gb.html?label=gen173nr-1BCAEoggI46AdIM1gEaGmIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AuTasfcFwAIB0gIkMGI0NDRiZmUtZWY5ZS00OWMzLThlNzgtNTQzY2VhZjgwNzEw2AIF4AIB;sid=4a060d129a8dad61eaedc85866f5450e;keep_landing=1&sb_price_type=total&) API is  a restricted API. If i had access to it, I would include it on the website so users wouldn't need to leave the website to book a hotel.
+3. **Contact Page** - In the future I plan to implement a contact form, so users can offer recommend places I should include on the website, or possible partnerships or collaborations with tourist related businesses. 
 
 ## TECHNOLOGIES 
 

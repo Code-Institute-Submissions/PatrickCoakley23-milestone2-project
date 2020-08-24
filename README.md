@@ -41,8 +41,10 @@ The key goals for Come to Cork are:
     * Reason for the Corona Virus Api. 
 
     ### Wireframes 
-I used [Balsamic](https://balsamiq.com/) to build the wireframes. I created mockups for desktop, tablet and mobile viewports, so i could have an idea of what my website would look like, and i could follow a plan to avoid scope creep.
-
+After reading the project brief i formulated a idea and jotted down notes and rough sketches on pen and paper. 
+These ideas evolved into creating user stories which helped me formulate a plan to draw up some wireframes. 
+I used [Balsamiq](https://balsamiq.com/) to build the wireframes. I created mockups for desktop, tablet and mobile viewports, so i could have an idea of what my website would look like, and i could follow a plan to avoid scope creep.
+In the next project I plan to make more detailed, creative wireframes which will reduce the design phase as I will have a clear vision of what the finished project should look like.  
 
 <details>
 <summary>Desktop Wireframes <strong>(Click dropdown for images)</strong></summary>
@@ -451,10 +453,14 @@ I carried out further testing on different devices and different browsers. I cre
 
 
 ## DEPLOYMENT 
-I first set up my repository on Github. Github is a hosting platform which stores and presents my code. After creating a repository on github i click the green 'Gitpod' button which opens my repository in Gitpod. I don't ever create projects directly in Gitpod, i create them in Github, and use the green button to open my project and begin coding.
-Gitpod is an IDE (integrated development environment) that allows for software development. It's important when i create a new html file in Gitpod that i name my default file index.html as the server looks for this and loads this page automatically. Once i have inserted some code i can run my page in the browser and within seconds, i can view the web version of my page. Gitpod is where i develop my project, write code and complete debugging issues. An important note, after i have created the repo in Github, I then open the repository each time from Gitpod homepage, which shows me my most recent workspaces. If I were to click the green button in Github every time, this would just create a new version of my repository each time.
-In Gitpod, the next step is to commit any significant work and push it to Github. Once in Github, i follow the steps below on how deploy my project. This is where the website goes 'live' and any users who have a link to my project are able to view the site. 
+I first set up my repository on [Github](https://github.com/). Github is a hosting platform which stores and presents my code. When logged into GitHub i click the green button on the right handside under repositories to create a new repository. After creating a repository on github i click the green 'Gitpod' button which opens my repository in [Gitpod]( https://gitpod.io/). I don't ever create projects directly in Gitpod, i create them in Github, and use the green button to open my project and begin coding.
 
+Gitpod is an IDE (integrated development environment) that allows for software development.
+Once i have inserted some code, i can run my page in the browser and within seconds, i can view the web version of my page. Gitpod is where i develop my project, write code and complete debugging issues.
+
+An important note, after i have created the repo in Github, I then open the repository each time from the Gitpod homepage, which shows me my most recent workspaces. If I were to click the green button in Github every time, this would just create a new version of my repository each time.
+
+In Gitpod, the next step is to commit any significant work and push it to Github.
 ### GitHub Pages
    
 The project was deployed to GitHub Pages using the following steps...
@@ -479,6 +485,26 @@ The project was deployed to GitHub Pages using the following steps...
     
     7. Press Enter. Your local clone will be created.
 
+8. You'll also need a google maps api key to render the map on the page. The Covid 19 api is a free and open API so no key is needed. The steps for getting a google maps API key is outlined below.
+
+#### Google Api Key
+
+1. Create a billing account - They do require you to give your credit card details, but it's highly unlikely that you'd
+ever be charged. Click [here]( https://developers.google.com/maps/gmp-get-started#create-billing-account) to follow the steps in setting up your billing account. To ensure you don't get charged you can restrict your API by following the guidelines [here](https://developers.google.com/maps/documentation/javascript/get-api-key#restrict_key)
+
+
+2. Go to the [Google Cloud Platform Console](https://cloud.google.com/console/google/maps-apis/overview).
+
+3. Click the project drop-down and select NEW PROJECT. Enter your new project details and agree to the T&C's. 
+
+4. On the Credentials page, click Create credentials > API key. The API key created dialog displays your newly created API key. 
+
+5. At the bottom of the index.html page where the javascript links are replace my API key with your Google API key. 
+In the image below, where it is highlighted thats where you replace the API key with your own key. 
+
+<h2 align="center"><img src="README-images/google_maps_api.png" max-width="50%"></h2>
+
+
 ## CREDITS
 
 ### Code
@@ -491,27 +517,27 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Media 
 
-- The Come To Cork Logo was created using <a href="https://www.tailorbrands.com/" target="_blank">Tailor Brands</a>. 
+- The Come To Cork Logo was created using [Tailor Brands](https://www.tailorbrands.com/). 
 
-- <a href="https://www.shutterstock.com/home" target="_blank">Shutterstock</a> and <a href="https://www.flickr.com/search/?text=mutton%20lane%20cork" target="_blank">Flickr</a> was the source for all the imagery used on the website. 
+- Searching the keywords "Cork Ireland" on [Shutterstock]( https://www.shutterstock.com/search/cork+ireland) and [Flickr]( https://www.flickr.com/photos/tags/cork/) was were I sourced all the imagery used on the website. 
 
-- <a href="https://fontawesome.com/start" target="_blank">Font Awesome</a> was the source for all the icons bar the Irish flag and Tripadvisor icon in the footer which were sourced from <a href="https://icons8.com/icons" target="_blank">Icons8</a>
+- [Font Awesome]( https://fontawesome.com/start) was the source for all the icons bar the Irish flag and Tripadvisor icon in the footer which were sourced from [Icons8](https://icons8.com/icons).
 
 ### API's 
 
-- <a href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#7934d316-f751-4914-9909-39f1901caeb8" target="_blank">Postman</a> for the <a href="https://coronavirus.jhu.edu/map.html" target="_blank">John Hopkins Coronavirus Resource</a> Covid-19 API.  
+- <[Postman](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#7934d316-f751-4914-9909-39f1901caeb8) for the [John Hopkins Coronavirus Resource](https://coronavirus.jhu.edu/map.html) Covid-19 API.  
 
-- <a href="https://developers.google.com/" target="_blank">Google Developers</a> for the Google Maps API.
+- <[Google Developers](https://developers.google.com/) for the Google Maps API.
 
 ### Content 
  - All content of the website was written by Patrick Coakley. 
 
-- General lines from <a href="https://github.com/Code-Institute-Solutions/SampleREADME" target="_blank">Code Institutes Sample README</a> were used in this README file, for example the 'Deployment' section and the 'Making a Clone' section.
+- General lines from [Code Institutes Sample README](https://github.com/Code-Institute-Solutions/SampleREADME) were used in this README file, for example the 'Deployment' section and the 'Making a Clone' section.
 
 ## ACKNOWLEDGEMENTS
-- My mentor, <a href="https://github.com/precious-ijege" target="_blank"> Precious Ijege</a> was a great help. The three mentor sessions were invaluable. He explained every suggestion in a clear concise manner, and pointed out bugs i would never have seen.
+- My mentor,[Precious Ijege](https://github.com/precious-ijege) was a great help. The three mentor sessions were invaluable. He explained every suggestion in a clear concise manner, and pointed out bugs i would never have seen.
 
--  My tutor, <a href="https://github.com/armedcor" target="_blank">Cormac Lawlor</a> was very supportive during the project. Being a past student himself, he was aware of certain issues i was facing and was always at hand to offer support. 
+-  My tutor, [Cormac Lawlor](https://github.com/armedcor) was very supportive during the project. Being a past student himself, he was aware of certain issues i was facing and was always at hand to offer support. 
 
-- <a href="https://www.linkedin.com/in/brian-o-grady-18a2153/?originalSubdomain=ie" target="_blank"> Brian O' Grady</a> and <a href="https://www.linkedin.com/in/mattrudge73/" target="_blank">Matt Rudge's</a> as the course content great was a great aid in developing my website. 
+- [Brian O' Grady](https://www.linkedin.com/in/brian-o-grady-18a2153/?originalSubdomain=ie) and [Matt Rudge's](https://www.linkedin.com/in/mattrudge73/) as the course content great was a great aid in developing my website. 
 

@@ -82,7 +82,7 @@ In the next project I plan to make more detailed, creative wireframes which will
 ## DESIGN
 
 ### Framework
-I used <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> to build the framework of the website. Bootstrap was  the main tool frame responsible for making the Come to Cork website responsive. This means the website automatically resizes itself to look good on all devices, be it mobile, tablet, laptop or desktop. 
+I used [Bootstrap](https://getbootstrap.com) to build the framework of the website. Bootstrap was  the main tool frame responsible for making the Come to Cork website responsive. This means the website automatically resizes itself to look good on all devices, be it mobile, tablet, laptop or desktop. 
 
 ### Colour Scheme
 
@@ -189,8 +189,8 @@ For this milestone project i was tasked with implementing at least one API which
 The API's i implimented on the Come To Cork website are the Google Maps API which allows users to select and search relevant hotels, restaurants, tourist attractions and bars in Cork City. I also included a Corona Virus API which updates daily and gives figures related to Ireland only.
 
 ### Google Maps Api
-I followed the <a href="https://developers.google.com/maps/documentation/javascript/importing_data" target="_blank"> Google Documentation</a> to render my map on my website. I used <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">javascript</a> functions to upload the map centered in Cork City by including the city's latitude and longitude. The markers are applied by including the <a href="https://developers.google.com/places/web-service/details" target="_blank">Google Places</a> library and using a javascript event listener to render the specific information related to that location. 
-When the page first loads the google maps renders markers for hotels in Cork City. I added a <a href="https://jquery.com/" target="_blank">JQuery</a> click event which loads markers specific to each category(bars/restaurants/tourist-attraction/hotels) when the tab panel is clicked. 
+I followed the [Google Documentation]( https://developers.google.com/maps/documentation/javascript/importing_data) to render my map on my website. I used [javascript](https://en.wikipedia.org/wiki/JavaScript) functions to upload the map centered in Cork City by including the city's latitude and longitude. The markers are applied by including the [Google Places library](https://developers.google.com/places/web-service/details) and using a javascript event listener to render the specific information related to that location. 
+When the page first loads the google maps renders markers for hotels in Cork City. I added a [JQuery](https://jquery.com/) click event which loads markers specific to each category(bars/restaurants/tourist-attraction/hotels) when the tab panel is clicked. 
 
 I was hoping to make the google maps more dynamic by adding more information about each location. The documentation for Google Maps Places,(as shown in the first image below) states there is plenty of details you can upload from the API. Unfortunately a number of key details i would have liked to include like: 'Url', 'website', 'formatted phone number', 'price level' and 'review' were missing in the JSON file when i pulled up the API (as seen in the second image below).
 
@@ -209,7 +209,7 @@ I was hoping to make the google maps more dynamic by adding more information abo
 </details> 
 
 ### Covid 19 Api
-I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#7934d316-f751-4914-9909-39f1901caeb8" target="_none">Covid 19 API</a> which is in JSON format in the first image below. I then used the Jquery prepend function and CSS styling to present data in a HTML table and is rendered on the website for the user.
+I used Jquery AJAX to pull data from the [Covid 19 API](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#7934d316-f751-4914-9909-39f1901caeb8) which is in JSON format in the first image below. I then used the Jquery prepend function and CSS styling to present data in a HTML table and is rendered on the website for the user.
 
 <details>
 <summary>Covid 19 data in JSON <strong>(Click dropdown for images)</strong></summary>
@@ -233,41 +233,41 @@ I used Jquery AJAX to pull data from the <a href="https://documenter.getpostman.
 ## TECHNOLOGIES 
 
 ### Langauges Used
-1.  <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">HTLM5</a>
+1.  [HTLM5](https://en.wikipedia.org/wiki/HTML5)
      - is the standard markup language for documents designed to be displayed in a web browser.
-2.  <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">CSS3</a> 
+2.  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
     -  Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
-3.  <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> 
+3.  [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
     - JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites.
 
 ### Frameworks, Libraries & Programs Used
 
-  1. <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" target="_blank">Bootstrap 4.4.1:</a>
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
         - Bootstrap was used to assist with the responsiveness and styling of the website.</li>
   
-2.   <a href="https://fonts.google.com/" target="_blank">Google Fonts:</a>
+2.  [Google Fonts:](href="https://fonts.google.com/)
         - Google fonts were used to import the 'Oswald' font and the 'Open Sans' font into the style.css file which is used on all pages throughout the website.
 
-3.   <a href="https://fontawesome.com/" target="_blank">Font Awesome:</a>
+3.   [Font Awesome:](https://fontawesome.com/) 
         - Font Awesome was used on throughout the website to add icons for aesthetic and UX purposes.
 
-4.   <a href="https://git-scm.com/" target="_blank">Git:</a>
+4.   [Git:](https://git-scm.com/)
         - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-5.   <a href="https://github.com/" target="_blank">GitHub:</a>
+5.   [GitHub:](https://github.com/)
         - GitHub is used to store the projects code after being pushed from Git.
 
-6.   <a href="https://balsamiq.com/" target="_blank">Balsamiq:</a>
+6.   [Balsamiq:](https://balsamiq.com/)
         - Balsamiq was used to create the <a href="https://github.com/" target="_blank">wireframes</a> during the design process.
 
-7.  <a href="https://jquery.com/" target="_blank">JQuery</a>
+7.  [JQuery](https://jquery.com/) 
     -  jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
 
-8. <a href="https://michalsnik.github.io/aos/" target="_blank">AOS</a>.
+8. [AOS](https://michalsnik.github.io/aos/)
     -  The Scrolling effect in the Why Come to Cork section used a plugin from this library.
         
 ## TESTING
-We were thought how to use the automatic testing framework <a href="https://jasmine.github.io/" target="_blank"> Jasmine</a> as part of Interactive Front End module, but we were told we didn't have to implement it in our projects as there is limitations with its testing and they're in the process of switching testing frameworks. I therefore carried out manuel testing and documented any errors/random side-effects captured in the DevTools.
+We were thought how to use the automatic testing framework [Jasmine](https://jasmine.github.io/) as part of Interactive Front End module, but we were told we didn't have to implement it in our projects as there is limitations with its testing and they're in the process of switching testing frameworks. I therefore carried out manuel testing and documented any errors/random side-effects captured in the DevTools.
 I loaded the website several times, and forced browser refresh to try and catch any errors but thankfully there was none. 
 
 <details>
@@ -277,7 +277,7 @@ I loaded the website several times, and forced browser refresh to try and catch 
     </p>
     </details> 
 
-I used <a href="JavaScript source code complies with coding rules." target="_blank">JSHint</a> to check if my javascript source code complied with coding rules. There were no major errors, just warnings about ES6 template literals because they are a modern standard. I also have warnings about '$' being undefined but this can also be ignored as it's the standard for selecting elements in JQuery.
+I used [JSHint](https://jshint.com/) to check if my javascript source code complied with coding rules. There were no major errors, just warnings about ES6 template literals because they are a modern standard. I also have warnings about '$' being undefined but this can also be ignored as it's the standard for selecting elements in JQuery.
 <details>
 <summary>Three JSHint Validating Test Results <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
@@ -291,7 +291,7 @@ I used <a href="JavaScript source code complies with coding rules." target="_bla
 </p>
 </details> 
 
-I checked my website with the HTML <a href="https://validator.w3.org/" target="_blank">W3C Markup Validator</a> and it resulted in no errors. 
+I checked my website with the HTML [W3C Markup Validator](https://validator.w3.org/) and it resulted in no errors. 
 
 <details>
 <summary>HTML Validator Test Results <strong>(Click dropdown for images)</strong></summary>
@@ -300,7 +300,7 @@ I checked my website with the HTML <a href="https://validator.w3.org/" target="_
 </p>
 </details> 
 
-I uploaded my css to the <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validator </a> and again i had no errors.
+I uploaded my css to the [CSS Validator](https://jigsaw.w3.org/css-validator/) and again i had no errors.
 
 <details>
 <summary>CSS Validator Test Results <strong>(Click dropdown for images)</strong></summary>
@@ -466,7 +466,7 @@ In Gitpod, the next step is to commit any significant work and push it to Github
    
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the <a href="https://github.com/PatrickCoakley23/milestone2-project" target="_blank">PatrickCoakley23/milestone2-project</a>
+1. Log in to GitHub and locate the [PatrickCoakley23/milestone2-project](https://github.com/PatrickCoakley23/milestone2-project) 
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
@@ -475,7 +475,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the <a href="https://github.com/PatrickCoakley23/milestone2-project" target="_blank">PatrickCoakley23/milestone-project</a>
+1. Log in to GitHub and locate the [PatrickCoakley23/milestone-project](https://github.com/PatrickCoakley23/milestone2-project).
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -510,25 +510,25 @@ In the image below, where it is highlighted thats where you replace the API key 
 
 ### Code
 
--    <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" target="_blank">Bootstrap 4.4.1:</a> -  used Bootstrap throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-    [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/) -  used Bootstrap throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   The tab panel i used was something i learned from following a tutorial from <a href="https://www.youtube.com/watch?v=1nWrIBB_bMA&list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv&index=12" target="_blank">LearnCode.academy</a>
+-   The tab panel i used was something i learned from following a tutorial from [LearnCode.academy](https://www.youtube.com/watch?v=1nWrIBB_bMA&list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv&index=12).
 
--   I copied code from this <a href="https://stackoverflow.com/questions/53952611/how-to-turn-off-aos-animation-in-mobile-screens" target="_blank">Stack Overflow Post</a> to prevent the AOS animation occurring on mobile devices. 
+-   I copied code from this [Stack Overflow Post](https://stackoverflow.com/questions/53952611/how-to-turn-off-aos-animation-in-mobile-screens) to prevent the AOS animation occurring on mobile devices. 
 
 ### Media 
 
 - The Come To Cork Logo was created using [Tailor Brands](https://www.tailorbrands.com/). 
 
-- Searching the keywords "Cork Ireland" on [Shutterstock]( https://www.shutterstock.com/search/cork+ireland) and [Flickr]( https://www.flickr.com/photos/tags/cork/) was were I sourced all the imagery used on the website. 
+- Searching the keywords "Cork Ireland" on [Shutterstock](https://www.shutterstock.com/search/cork+ireland) and [Flickr](https://www.flickr.com/photos/tags/cork/) was were I sourced all the imagery used on the website. 
 
 - [Font Awesome]( https://fontawesome.com/start) was the source for all the icons bar the Irish flag and Tripadvisor icon in the footer which were sourced from [Icons8](https://icons8.com/icons).
 
 ### API's 
 
-- <[Postman](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#7934d316-f751-4914-9909-39f1901caeb8) for the [John Hopkins Coronavirus Resource](https://coronavirus.jhu.edu/map.html) Covid-19 API.  
+- [Postman](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#7934d316-f751-4914-9909-39f1901caeb8) for the [John Hopkins Coronavirus Resource](https://coronavirus.jhu.edu/map.html) Covid-19 API.  
 
-- <[Google Developers](https://developers.google.com/) for the Google Maps API.
+- [Google Developers](https://developers.google.com/) for the Google Maps API.
 
 ### Content 
  - All content of the website was written by Patrick Coakley. 
@@ -536,7 +536,7 @@ In the image below, where it is highlighted thats where you replace the API key 
 - General lines from [Code Institutes Sample README](https://github.com/Code-Institute-Solutions/SampleREADME) were used in this README file, for example the 'Deployment' section and the 'Making a Clone' section.
 
 ## ACKNOWLEDGEMENTS
-- My mentor,[Precious Ijege](https://github.com/precious-ijege) was a great help. The three mentor sessions were invaluable. He explained every suggestion in a clear concise manner, and pointed out bugs i would never have seen.
+- My mentor, [Precious Ijege](https://github.com/precious-ijege) was a great help. The three mentor sessions were invaluable. He explained every suggestion in a clear concise manner, and pointed out bugs i would never have seen.
 
 -  My tutor, [Cormac Lawlor](https://github.com/armedcor) was very supportive during the project. Being a past student himself, he was aware of certain issues i was facing and was always at hand to offer support. 
 

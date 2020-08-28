@@ -41,7 +41,6 @@ header {
   width: 100%;
 }
 
-
 .navbar {
   margin-bottom: 0;
   border: 0;
@@ -70,7 +69,7 @@ header {
     margin-right: 20px;
 }
 
- .navbar button:focus {
+.navbar button:focus {
      outline: 5px auto white;
 }
 
@@ -110,6 +109,7 @@ header {
 }
 
 /*-- WHY VISIT CORK SECTION */
+
 .why-cork-div {
    border: 5px solid #9D1821;
    padding: 20px;
@@ -396,6 +396,7 @@ footer a {
 }
 
 /*--Copied Code from stack overflow to stop animation on AOS Scrolling at smaller screen widths--*/
+
 @media only screen and (max-width : 576px) {
     .animated {
         /*CSS transitions*/

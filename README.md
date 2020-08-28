@@ -278,13 +278,14 @@ I loaded the website several times, and forced browser refresh to try and catch 
     </details> 
 
 I used [JSHint](https://jshint.com/) to check if my javascript source code complied with coding rules. There were no major errors, just warnings about ES6 template literals because they are a modern standard. I also have warnings about '$' being undefined but this can also be ignored as it's the standard for selecting elements in JQuery.
+In map.js i had a undefined variable 'initMap', however I ignored this warning as this is the function used to render the map on the page.
 <details>
 <summary>Three JSHint Validating Test Results <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
 <img height="350" src="README-images/jshint-covid-19.png" style="max-width:100%;"></a>
 </p>
 <p align="center">
-<img height="350" src="README-images/jshint-map.png" style="max-width:100%;"></a>
+<img height="350" src="README-images/jshint-map.jpg" style="max-width:100%;"></a>
 </p>
 <p align="center">
 <img height="350" src="README-images/jshint-tab-panel.png" style="max-width:100%;"></a>

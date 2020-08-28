@@ -44,7 +44,7 @@ The key goals for Come to Cork are:
 After reading the project brief I formulated a idea and jotted down notes and rough sketches on pen and paper. 
 These ideas evolved into creating user stories which helped me formulate a plan to draw up some wireframes. 
 I used [Balsamiq](https://balsamiq.com/) to build the wireframes. I created mockups for desktop, tablet and mobile viewports, so I could have an idea of what my website would look like, and I  could follow a plan to avoid scope creep.
-In the next project I plan to make more detailed, creative wireframes which will reduce the design phase as I will have a clear vision of what the finished project should look like.  
+In the next project I plan to make more detailed, creative wireframes which will reduce the time spent on the design phase as I will have a clear vision of what the finished project should look like.  
 
 <details>
 <summary>Desktop Wireframes <strong>(Click dropdown for images)</strong></summary>
@@ -134,7 +134,7 @@ The hero images include some iconic locations in Cork, like st.Fin Barre's Cathe
     <img height="350" src="README-images/screengrab-why-visit-cork.png" style="max-width:100%;"></a>
     </p>
     </details>
-* **Responsive alterations** - For screen sizes smaller than 768px wide the sections are stacked on top of each other and the images are no longer displayed.Two of the images (GAA and the Stacked image) are hidden from mobile view. In the absence of the images, Icons from font awesome are introduced to add a sense of fun to the page.
+* **Responsive alterations** - For screen sizes smaller than 768px wide the sections are stacked on top of each other and the images are no longer displayed. In the absence of the images, Icons from font awesome are introduced to add a sense of fun to the page.
     <details>
     <summary>Responsive Changes <strong>(Click dropdown for images)</strong></summary>
     <p align="center">

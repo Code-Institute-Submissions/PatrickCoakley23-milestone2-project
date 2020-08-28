@@ -27,6 +27,6 @@ $.ajax(settings).done(function (response) {
                      <tr><td class="table-data-1"><strong>Last Updated (GMT+0):</strong></td> <td>${newDate}</td></tr>
                     `);
 }).fail(function( jqXHR, textStatus ) {
-  $covidData.prepend( "Request failed: " + textStatus );
+  $covidData.prepend( "For some reason the Covid-19 table didn't load: " + textStatus );
 });
 

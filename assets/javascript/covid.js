@@ -26,4 +26,7 @@ $.ajax(settings).done(function (response) {
                      <tr><td class="table-data-1"><strong>Total Deaths:</strong></td> <td>${totalDeaths}</td></tr> 
                      <tr><td class="table-data-1"><strong>Last Updated (GMT+0):</strong></td> <td>${newDate}</td></tr>
                     `);
+}).fail(function( jqXHR, textStatus ) {
+  $covidData.prepend( "Request failed: " + textStatus );
 });
+

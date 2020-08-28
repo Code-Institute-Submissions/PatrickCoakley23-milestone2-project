@@ -41,9 +41,9 @@ The key goals for Come to Cork are:
     * Reason for the Corona Virus Api. 
 
     ### Wireframes 
-After reading the project brief i formulated a idea and jotted down notes and rough sketches on pen and paper. 
+After reading the project brief I formulated a idea and jotted down notes and rough sketches on pen and paper. 
 These ideas evolved into creating user stories which helped me formulate a plan to draw up some wireframes. 
-I used [Balsamiq](https://balsamiq.com/) to build the wireframes. I created mockups for desktop, tablet and mobile viewports, so i could have an idea of what my website would look like, and i could follow a plan to avoid scope creep.
+I used [Balsamiq](https://balsamiq.com/) to build the wireframes. I created mockups for desktop, tablet and mobile viewports, so I could have an idea of what my website would look like, and I  could follow a plan to avoid scope creep.
 In the next project I plan to make more detailed, creative wireframes which will reduce the design phase as I will have a clear vision of what the finished project should look like.  
 
 <details>
@@ -86,8 +86,8 @@ I used [Bootstrap](https://getbootstrap.com) to build the framework of the websi
 
 ### Colour Scheme
 
-**Red** - is the most imposing and dominant colour on the Come To Cork website. As you can see from my wireframes, i initially planned on using more red than in the finished website. I felt red is a very powerful and imposing colour and too much of it could distract the reader and make it unreadable. 
-Red is the colour associated with Cork, and for this reason i felt it had to be the main colour of the website. I used a dark red as i felt a brighter red could cheapen the brand and the website. I feel i got the right combination of attention getting and exciting red paired with a white background and font. 
+**Red** - is the most imposing and dominant colour on the Come To Cork website. As you can see from my wireframes, I initially planned on using more red than in the finished website. I felt red is a very powerful and imposing colour and too much of it could distract the reader and make it unreadable. 
+Red is the colour associated with Cork, and for this reason I felt it had to be the main colour of the website. I used a dark red as I felt a brighter red could cheapen the brand and the website. I feel I  got the right combination of attention getting and exciting red paired with a white background and font. 
 
 **White** - As mentioned above, the white was used to give the red a softer feel. I wanted to go for a clean look as too much colors could be overpowering and distract the user from the key information 
 
@@ -144,7 +144,7 @@ The hero images include some iconic locations in Cork, like st.Fin Barre's Cathe
 
 ### A Locals Guide 
 *   This section is the main interactive section for the user. The Google Map API is included in this section and allows users to scroll through different places in Cork. When the user clicks the location markers on the map, information pertaining to that location appears. 
-*   Beside the map is the tab panel widget which was built using [JQuery](ttps://jquery.com/). Whenever the user clicks the sections within the tab panel (i.e hotels, bars, restaurant or tourist attractions) locations associated to these business categories appear on the map. I have listed four locations under each section as they are local recommendations and meet the needs of consumers, wanting to experience hidden gems and living like the locals.
+*   Beside the map is the tab panel widget which was built using [JQuery](ttps://jquery.com/). Whenever the user clicks the sections within the tab panel (I .e hotels, bars, restaurant or tourist attractions) locations associated to these business categories appear on the map. I have listed four locations under each section as they are local recommendations and meet the needs of consumers, wanting to experience hidden gems and living like the locals.
 
     <details>
     <summary>A Locals Guide <strong>(Click dropdown for images)</strong></summary>
@@ -173,7 +173,7 @@ I altered the order in which they are presented for mobile view, as the user get
     </p>
     </details> 
 
-* **Responsive alterations** - The guidelines section and the table are stacked on top of each other at screen widths lower than 768px. The order in which they are presented is also changed as i felt the table would be meaningless for users unless they got a bit of supporting information first.
+* **Responsive alterations** - The guidelines section and the table are stacked on top of each other at screen widths lower than 768px. The order in which they are presented is also changed as I felt the table would be meaningless for users unless they got a bit of supporting information first.
 
      <details>
     <summary>Responsive Changes <strong>(Click dropdown for images)</strong></summary>
@@ -185,14 +185,14 @@ I altered the order in which they are presented for mobile view, as the user get
 ### API Features
 API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.
 
-For this milestone project i was tasked with implementing at least one API which allows users to interact with the site. 
-The API's i implimented on the Come To Cork website are the Google Maps API which allows users to select and search relevant hotels, restaurants, tourist attractions and bars in Cork City. I also included a Corona Virus API which updates daily and gives figures related to Ireland only.
+For this milestone project I was tasked with implementing at least one API which allows users to interact with the site. 
+The API's I implimented on the Come To Cork website are the Google Maps API which allows users to select and search relevant hotels, restaurants, tourist attractions and bars in Cork City. I also included a Corona Virus API which updates daily and gives figures related to Ireland only.
 
 ### Google Maps Api
 I followed the [Google Documentation]( https://developers.google.com/maps/documentation/javascript/importing_data) to render my map on my website. I used [javascript](https://en.wikipedia.org/wiki/JavaScript) functions to upload the map centered in Cork City by including the city's latitude and longitude. The markers are applied by including the [Google Places library](https://developers.google.com/places/web-service/details) and using a javascript event listener to render the specific information related to that location. 
 When the page first loads the google maps renders markers for hotels in Cork City. I added a [JQuery](https://jquery.com/) click event which loads markers specific to each category(bars/restaurants/tourist-attraction/hotels) when the tab panel is clicked. 
 
-I was hoping to make the google maps more dynamic by adding more information about each location. The documentation for Google Maps Places,(as shown in the first image below) states there is plenty of details you can upload from the API. Unfortunately a number of key details i would have liked to include like: 'Url', 'website', 'formatted phone number', 'price level' and 'review' were missing in the JSON file when i pulled up the API (as seen in the second image below).
+I was hoping to make the google maps more dynamic by adding more information about each location. The documentation for Google Maps Places,(as shown in the first image below) states there is plenty of details you can upload from the API. Unfortunately a number of key details I  would have liked to include like: 'Url', 'website', 'formatted phone number', 'price level' and 'review' were missing in the JSON file when I  pulled up the API (as seen in the second image below).
 
 <details>
 <summary>Place Details Documentation ) <strong>(Click dropdown for images)</strong></summary>
@@ -226,8 +226,8 @@ I used Jquery AJAX to pull data from the [Covid 19 API](https://documenter.getpo
 </details> 
 
 ### Future Implementation 
-1. **Events** - If i had more time i would include a section with upcoming events, from summer festivals, concerts to the world famous Guinness jazz festival. It would be great if there was an api that updated this, if not i would update it manually maybe once a fortnight. This would give users more of a reason to visit Cork and it would allow them to better plan the time of year they visit.
-2. **Booking Hotels** - Unfortunately the [Booking.com]( https://www.booking.com/index.en-gb.html?label=gen173nr-1BCAEoggI46AdIM1gEaGmIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AuTasfcFwAIB0gIkMGI0NDRiZmUtZWY5ZS00OWMzLThlNzgtNTQzY2VhZjgwNzEw2AIF4AIB;sid=4a060d129a8dad61eaedc85866f5450e;keep_landing=1&sb_price_type=total&) API is  a restricted API. If i had access to it, I would include it on the website so users wouldn't need to leave the website to book a hotel.
+1. **Events** - If I had more time I would include a section with upcoming events, from summer festivals, concerts to the world famous Guinness jazz festival. It would be great if there was an api that updated this, if not I would update it manually maybe once a fortnight. This would give users more of a reason to visit Cork and it would allow them to better plan the time of year they visit.
+2. **Booking Hotels** - Unfortunately the [Booking.com]( https://www.booking.com/index.en-gb.html?label=gen173nr-1BCAEoggI46AdIM1gEaGmIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AuTasfcFwAIB0gIkMGI0NDRiZmUtZWY5ZS00OWMzLThlNzgtNTQzY2VhZjgwNzEw2AIF4AIB;sid=4a060d129a8dad61eaedc85866f5450e;keep_landing=1&sb_price_type=total&) API is  a restricted API. If I had access to it, I would include it on the website so users wouldn't need to leave the website to book a hotel.
 3. **Contact Page** - In the future I plan to implement a contact form, so users can offer recommend places I should include on the website, or possible partnerships or collaborations with tourist related businesses. 
 
 ## TECHNOLOGIES 
@@ -278,7 +278,8 @@ I loaded the website several times, and forced browser refresh to try and catch 
     </details> 
 
 I used [JSHint](https://jshint.com/) to check if my javascript source code complied with coding rules. There were no major errors, just warnings about ES6 template literals because they are a modern standard. I also have warnings about '$' being undefined but this can also be ignored as it's the standard for selecting elements in JQuery.
-In map.js i had a undefined variable 'initMap', however I ignored this warning as this is the function used to render the map on the page.
+In map.js I 
+had a undefined variable 'initMap', however I ignored this warning as this is the function used to render the map on the page.
 <details>
 <summary>Three JSHint Validating Test Results <strong>(Click dropdown for images)</strong></summary>
 <p align="center">
@@ -301,7 +302,7 @@ I checked my website with the HTML [W3C Markup Validator](https://validator.w3.o
 </p>
 </details> 
 
-I uploaded my css to the [CSS Validator](https://jigsaw.w3.org/css-validator/) and again i had no errors.
+I uploaded my css to the [CSS Validator](https://jigsaw.w3.org/css-validator/) and again I had no errors.
 
 <details>
 <summary>CSS Validator Test Results <strong>(Click dropdown for images)</strong></summary>
@@ -353,7 +354,7 @@ I carried out extensive testing of the responsiveness of my website by checking 
 </p>
 </details> 
 
-I carried out further testing on different devices and different browsers. I created a testing matrix in excel which outlines the various tests i made to ensure the Come to Cork website performed well across various devices and browsers. 
+I carried out further testing on different devices and different browsers. I created a testing matrix in excel which outlines the various tests I made to ensure the Come to Cork website performed well across various devices and browsers. 
 
 <details>
 <summary>Testing Matrix <strong>(Click dropdown for images)</strong></summary>
@@ -373,7 +374,7 @@ I carried out further testing on different devices and different browsers. I cre
   - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
     ### Known Bugs
-    - Debugging was carried out on an ongoing basis throughout of the project. Whilst coding i would preview run my code in the browser and check for any bug issues and make changes and fixes on an ad hoc basis.
+    - Debugging was carried out on an ongoing basis throughout of the project. Whilst coding I would preview run my code in the browser and check for any bug issues and make changes and fixes on an ad hoc basis.
     - On Internet Explorer the two API's don't render on the map, there is no hover effects and the scrolling performance is poor. 
 
     ## Testing of User Stories
@@ -381,7 +382,7 @@ I carried out further testing on different devices and different browsers. I cre
 1. As a user I want to see some images of the scenic locations I may visit when arriving in Cork.
     * Upon arriving on the website the user is greeted with a clean eye catching hero image which slides every 5 seconds and showcases 4 iconic locations of Cork City
     * There is more iconic images in the "Why Visit Cork" section, especially the Cathedral photo and the Baltimore Beacon photo, these images allow the users to visualise what it would be like to visit Cork. 
-    * The images for the "Why Visit Cork" section are removed from mobile view, as I felt there was too much content for mobile users, but i felt there was enough images in the hero image and the recommendation section to meet the needs of the user.
+    * The images for the "Why Visit Cork" section are removed from mobile view, as I felt there was too much content for mobile users, but I  felt there was enough images in the hero image and the recommendation section to meet the needs of the user.
 
         <details>
         <summary>User Wanting Scenic Locations <strong>(Click dropdown for images)</strong></summary>
@@ -443,7 +444,7 @@ I carried out further testing on different devices and different browsers. I cre
         </details>
 
 6. As a user I want to skip ahead of the 3second slide timer as I have seen enough of this image before and want to see what is next. 
-    * We have all been in this situation where we want to skip ahead to another image, this is the reason i have placed the next and previous button on the left and right of the hero image. 
+    * We have all been in this situation where we want to skip ahead to another image, this is the reason I have placed the next and previous button on the left and right of the hero image. 
 
         <details>
         <summary>Next and Prev Button <strong>(Click dropdown for images)</strong></summary>
@@ -455,12 +456,11 @@ I carried out further testing on different devices and different browsers. I cre
 
 
 ## DEPLOYMENT 
-I first set up my repository on [Github](https://github.com/). Github is a hosting platform which stores and presents my code. When logged into GitHub i click the green button on the right handside under repositories to create a new repository. After creating a repository on github i click the green 'Gitpod' button which opens my repository in [Gitpod]( https://gitpod.io/). I don't ever create projects directly in Gitpod, i create them in Github, and use the green button to open my project and begin coding.
-
+I first set up my repository on [Github](https://github.com/). Github is a hosting platform which stores and presents my code. When logged into GitHub I  click the green button on the right handside under repositories to create a new repository. After creating a repository on github I click the green 'Gitpod' button which opens my repository in [Gitpod]( https://gitpod.io/). I don't ever create projects directly in Gitpod, I  create them in Github, and use the green button to open my project and begin coding.
 Gitpod is an IDE (integrated development environment) that allows for software development.
-Once i have inserted some code, i can run my page in the browser and within seconds, i can view the web version of my page. Gitpod is where i develop my project, write code and complete debugging issues.
+Once I have inserted some code, I can run my page in the browser and within seconds, I can view the web version of my page. Gitpod is where I  develop my project, write code and complete debugging issues.
 
-An important note, after i have created the repo in Github, I then open the repository each time from the Gitpod homepage, which shows me my most recent workspaces. If I were to click the green button in Github every time, this would just create a new version of my repository each time.
+An important note, after I have created the repo in Github, I then open the repository each time from the Gitpod homepage, which shows me my most recent workspaces. If I were to click the green button in Github every time, this would just create a new version of my repository each time.
 
 In Gitpod, the next step is to commit any significant work and push it to Github.
 ### GitHub Pages
@@ -513,7 +513,7 @@ In the image below, where it is highlighted thats where you replace the API key 
 
 -    [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/) -  used Bootstrap throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   The tab panel i used was something i learned from following a tutorial from [LearnCode.academy](https://www.youtube.com/watch?v=1nWrIBB_bMA&list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv&index=12).
+-   The tab panel I used was something I learned from following a tutorial from [LearnCode.academy](https://www.youtube.com/watch?v=1nWrIBB_bMA&list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv&index=12).
 
 -   I copied code from this [Stack Overflow Post](https://stackoverflow.com/questions/53952611/how-to-turn-off-aos-animation-in-mobile-screens) to prevent the AOS animation occurring on mobile devices. 
 
@@ -537,9 +537,9 @@ In the image below, where it is highlighted thats where you replace the API key 
 - General lines from [Code Institutes Sample README](https://github.com/Code-Institute-Solutions/SampleREADME) were used in this README file, for example the 'Deployment' section and the 'Making a Clone' section.
 
 ## ACKNOWLEDGEMENTS
-- My mentor, [Precious Ijege](https://github.com/precious-ijege) was a great help. The three mentor sessions were invaluable. He explained every suggestion in a clear concise manner, and pointed out bugs i would never have seen.
+- My mentor, [Precious Ijege](https://github.com/precious-ijege) was a great help. The three mentor sessions were invaluable. He explained every suggestion in a clear concise manner, and pointed out bugs I would never have seen.
 
--  My tutor, [Cormac Lawlor](https://github.com/armedcor) was very supportive during the project. Being a past student himself, he was aware of certain issues i was facing and was always at hand to offer support. 
+-  My tutor, [Cormac Lawlor](https://github.com/armedcor) was very supportive during the project. Being a past student himself, he was aware of certain issues I was facing and was always at hand to offer support. 
 
 - [Brian O' Grady](https://www.linkedin.com/in/brian-o-grady-18a2153/?originalSubdomain=ie) and [Matt Rudge's](https://www.linkedin.com/in/mattrudge73/) as the course content great was a great aid in developing my website. 
 

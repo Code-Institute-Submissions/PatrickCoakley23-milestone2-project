@@ -42,7 +42,6 @@ function createMarker(place) {
         position: place.geometry.location
     });
     google.maps.event.addListener(marker, "click", function() {
-        console.log(place)
         infowindow.setContent(`<div>
         <img src="${place.photos[0].getUrl({'maxWidth': 200, 'maxHeight': 140})}" alt=""><br>
         <strong>${place.name}</strong><br>

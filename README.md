@@ -491,7 +491,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 #### Google Api Key
 
-1. Create a billing account - They do require you to give your credit card details, but it's highly unlikely that you'd
+1. Create a billing account - they do require you to give your credit card details, but it's highly unlikely that you would
 ever be charged. Click [here]( https://developers.google.com/maps/gmp-get-started#create-billing-account) to follow the steps in setting up your billing account. To ensure you don't get charged you can restrict your API by following the guidelines [here](https://developers.google.com/maps/documentation/javascript/get-api-key#restrict_key)
 
 
@@ -501,7 +501,7 @@ ever be charged. Click [here]( https://developers.google.com/maps/gmp-get-starte
 
 4. On the Credentials page, click Create credentials > API key. The API key created dialog displays your newly created API key. 
 
-5. At the bottom of the index.html page where the javascript links are replace my API key with your Google API key. 
+5. At the bottom of the index.html page where the javascript links are, replace my API key with your Google API key. 
 In the image below, where it is highlighted thats where you replace the API key with your own key. 
 
 <h2 align="center"><img src="README-images/google_maps_api.png" max-width="50%"></h2>
